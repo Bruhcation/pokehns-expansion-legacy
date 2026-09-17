@@ -1,0 +1,19 @@
+#ifndef GUARD_CHALLENGE_MENU_H
+#define GUARD_CHALLENGE_MENU_H
+
+struct ScriptContext;
+
+void CB2_InitChallengeMenu(void);
+void ChallengeMenu_SetInitialSetup(bool8 isInitial);
+void Script_OpenChallengeMenu(struct ScriptContext *ctx);
+bool32 HMsOverwriteOptionActive(void);
+u8 GetMaxPartySize(void);
+bool8 IsPartyLimitChallengeActive(void);
+u8 GetCurrentTrainerIVs(void);
+u8 GetCurrentTrainerEVs(void);
+bool8 IsPokecenterChallengeActivated(void);
+bool8 IsOneTypeChallengeActive(void);
+bool8 DoesSpeciesPassOneTypeChallenge(u16 species);
+u32 GetBaseStatEqualizerValue(void);
+
+#endif // GUARD_CHALLENGE_MENU_H
