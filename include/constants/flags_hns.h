@@ -850,7 +850,7 @@
 #define FLAG_COMPLETED_TAUROS_WATER_TRADE                              0x304
 #define FLAG_COMPLETED_TAUROS_FIRE_TRADE                               0x305
 #define FLAG_COMPLETED_TAUROS_FIGHTING_TRADE                           0x306
-#define FLAG_UNUSED_39                              0x307
+#define FLAG_SLUGMA_EGG                              0x307
 #define HNS_UNUSED_COUNT                            40
 
 #define HNS_CONTENT_FLAGS_END                       0x308

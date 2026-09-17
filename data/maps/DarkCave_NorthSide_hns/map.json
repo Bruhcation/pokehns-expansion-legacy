@@ -168,7 +168,7 @@
       "x": 31,
       "y": 16,
       "elevation": 0,
-      "item": "ITEM_BIG_MUSHROOM",
+      "item": "ITEM_ABILITY_PATCH",
       "flag": "FLAG_HIDDEN_ITEM_DARKCAVE_NORTHSIDE_BIG_MUSHROOM"
     },
     {

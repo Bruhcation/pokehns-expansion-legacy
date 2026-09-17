@@ -3375,7 +3375,7 @@ static bool32 DoesBattlerTakeSandstormDamage(enum BattlerId battlerId, enum Abil
 
 static bool32 DoesBattlerTakeHailDamage(enum BattlerId battlerId, enum Ability ability)
 {
-    if (!(AI_GetWeather() & B_WEATHER_HAIL))
+    if (!(AI_GetWeather() & (B_WEATHER_SNOW || B_WEATHER_HAIL)))
         return FALSE;
 
     if (!IS_BATTLER_OF_TYPE(battlerId, TYPE_ICE)

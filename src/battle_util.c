@@ -5094,9 +5094,12 @@ u32 IsAbilityPreventingEscape(enum BattlerId battler)
 
 bool32 CanBattlerEscape(enum BattlerId battler) // no ability check
 {
+    enum Ability ability = GetBattlerAbility(battler);
     if (gBattleStruct->battlerState[battler].commanderSpecies != SPECIES_NONE)
         return FALSE;
     else if (GetConfig(B_GHOSTS_ESCAPE) >= GEN_6 && IS_BATTLER_OF_TYPE(battler, TYPE_GHOST))
+        return TRUE;
+    else if (ability == ABILITY_RUN_AWAY)
         return TRUE;
     else if (gBattleMons[battler].volatiles.escapePrevention)
         return FALSE;
@@ -7023,6 +7026,10 @@ static inline u32 CalcAttackStat(struct BattleContext *ctx)
         if (moveType == TYPE_GRASS && gBattleMons[battlerAtk].hp <= (gBattleMons[battlerAtk].maxHP / 3))
             modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
         break;
+    case ABILITY_COLOR_CHANGE:
+        if (moveType == TYPE_NORMAL)
+            modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
+        break;
     case ABILITY_PLUS:
         if (IsBattleMoveSpecial(move) && IsBattlerAlive(BATTLE_PARTNER(battlerAtk)))
         {
@@ -7132,6 +7139,14 @@ static inline u32 CalcAttackStat(struct BattleContext *ctx)
             modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(0.5));
             if (ctx->updateFlags)
                 RecordAbilityBattle(battlerDef, ABILITY_PURIFYING_SALT);
+        }
+        break;
+    case ABILITY_MAGMA_ARMOR:
+        if (moveType == TYPE_WATER)
+        {
+            modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(0.125));
+            if (ctx->updateFlags)
+                RecordAbilityBattle(battlerDef, ABILITY_MAGMA_ARMOR);
         }
         break;
     default:
@@ -7284,6 +7299,14 @@ static inline u32 CalcDefenseStat(struct BattleContext *ctx)
                 RecordAbilityBattle(battlerDef, ABILITY_MARVEL_SCALE);
         }
         break;
+    case ABILITY_SAND_VEIL:
+        if (gBattleWeather & B_WEATHER_SANDSTORM && HasWeatherEffect())
+        {
+            modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
+            if (ctx->updateFlags)
+                RecordAbilityBattle(battlerDef, ABILITY_SAND_VEIL);
+        }
+        break;
     case ABILITY_FUR_COAT:
         if (usesDefStat)
         {
@@ -7386,7 +7409,7 @@ static inline u32 CalcDefenseStat(struct BattleContext *ctx)
     if (GetConfig(B_SANDSTORM_SPDEF_BOOST) >= GEN_4 && IS_BATTLER_OF_TYPE(battlerDef, TYPE_ROCK) && IsBattlerWeatherAffected(battlerDef, B_WEATHER_SANDSTORM) && !usesDefStat)
         modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
     // snow def boost for ice types
-    if (IS_BATTLER_OF_TYPE(battlerDef, TYPE_ICE) && IsBattlerWeatherAffected(battlerDef, B_WEATHER_SNOW) && usesDefStat)
+    if (IS_BATTLER_OF_TYPE(battlerDef, TYPE_ICE) && (IsBattlerWeatherAffected(battlerDef, B_WEATHER_SNOW) || IsBattlerWeatherAffected(battlerDef, B_WEATHER_HAIL)) && usesDefStat)
         modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
 
     modifier = ApplyDefensiveBadgeBoost(modifier, battlerDef, move);
@@ -10500,6 +10523,9 @@ u32 GetTotalAccuracy(enum BattlerId battlerAtk, enum BattlerId battlerDef, enum 
     case ABILITY_SAND_VEIL:
         if (gBattleWeather & B_WEATHER_SANDSTORM && HasWeatherEffect())
             calc = (calc * 80) / 100; // 1.2 sand veil loss
+        break;
+    case ABILITY_STENCH:
+        calc = (calc * 90) / 100;
         break;
     case ABILITY_SNOW_CLOAK:
         if ((gBattleWeather & B_WEATHER_ICY_ANY) && HasWeatherEffect())

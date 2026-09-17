@@ -1582,7 +1582,7 @@ static s32 GetSwitchinWeatherImpact(enum BattlerId battler)
         // Damage
         if (holdEffect != HOLD_EFFECT_SAFETY_GOGGLES && ability != ABILITY_MAGIC_GUARD && ability != ABILITY_OVERCOAT)
         {
-            if ((gBattleWeather & B_WEATHER_HAIL)
+            if ((gBattleWeather & (B_WEATHER_HAIL || B_WEATHER_SNOW))
              && !IS_BATTLER_OF_TYPE(battler, TYPE_ICE)
              && ability != ABILITY_SNOW_CLOAK && ability != ABILITY_ICE_BODY)
             {

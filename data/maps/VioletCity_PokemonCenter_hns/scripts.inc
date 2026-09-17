@@ -76,6 +76,72 @@ VioletCity_PokemonCenter_EventScript_Aide_Received::
 	release
 	end
 
+VioletCity_PokemonCenter_EventScript_Primo::
+	lock
+	faceplayer
+	goto_if_set FLAG_SLUGMA_EGG, VioletCity_PokemonCenter_EventScript_Primo_Received
+	specialvar VAR_0x8004, GetMaxPartySize @ tx_randomizer_and_challenges
+	goto_if_eq VAR_0x8004, 1, VioletCity_PokemonCenter_EventScript_Primo_Offer @ party limit of 1: the Egg goes to the PC
+	getpartysize
+	goto_if_eq VAR_RESULT, VAR_0x8004, VioletCity_PokemonCenter_EventScript_PrimoNoRoom
+VioletCity_PokemonCenter_EventScript_Primo_Offer::
+	msgbox VioletCity_PokeCenter_Text_ElmsAideFavor, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, VioletCity_PokemonCenter_EventScript_Primo_Refuse
+	goto_if_eq VAR_RESULT, YES, VioletCity_PokemonCenter_EventScript_Primo_Accepted
+	release
+	end
+
+
+VioletCity_PokemonCenter_EventScript_Primo_FullParty::
+	msgbox VioletCity_PokeCenter_Text_ElmsAideFullParty, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+VioletCity_PokemonCenter_EventScript_PrimoNoRoom::
+	msgbox VioletCity_PokeCenter_Text_ElmsAideNoRoom, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+VioletCity_PokemonCenter_EventScript_Primo_Refuse::
+	msgbox VioletCity_PokeCenter_Text_ElmsAideRefuse, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, VioletCity_PokemonCenter_EventScript_Primo_Refuse
+	goto_if_eq VAR_RESULT, YES, VioletCity_PokemonCenter_EventScript_Primo_Accepted
+	release
+	end
+
+VioletCity_PokemonCenter_EventScript_Primo_Accepted::
+	specialvar VAR_0x8004, GetMaxPartySize @ tx_randomizer_and_challenges
+	goto_if_eq VAR_0x8004, 1, VioletCity_PokemonCenter_EventScript_Primo_GiveEgg @ party limit of 1: the Egg goes to the PC
+	getpartysize
+	goto_if_eq VAR_RESULT, VAR_0x8004, VioletCity_PokemonCenter_EventScript_Primo_FullParty
+VioletCity_PokemonCenter_EventScript_Primo_GiveEgg::
+	playfanfare MUS_OBTAIN_ITEM
+	message LavaridgeTown_Text_ReceivedTheEgg
+	waitfanfare
+	msgbox VioletCity_PokeCenter_Text_ElmsAideGiveEgg, MSGBOX_DEFAULT
+	closemessage
+	giveegg SPECIES_SLUGMA
+	goto_if_eq VAR_RESULT, MON_CANT_GIVE, Common_EventScript_NoMoreRoomForPokemon @ party limit of 1 and every BOX full
+	call_if_eq VAR_RESULT, MON_GIVEN_TO_PC, VioletCity_PokemonCenter_EventScript_Primo_EggSentToPC
+	setflag FLAG_SLUGMA_EGG
+	msgbox VioletCity_PokeCenter_Text_ElmsAideGiveItem, MSGBOX_DEFAULT
+	release
+	end
+
+VioletCity_PokemonCenter_EventScript_Primo_EggSentToPC::
+	msgbox VioletCity_PokeCenter_Text_ElmsAideEggToPC, MSGBOX_DEFAULT
+	closemessage
+	return
+
+VioletCity_PokemonCenter_EventScript_Primo_Received::
+	msgbox VioletCity_PokeCenter_Text_ElmsAideGiveEgg, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+
 VioletCity_PokemonCenter_EventScript_Gentleman::
 	lock
 	faceplayer

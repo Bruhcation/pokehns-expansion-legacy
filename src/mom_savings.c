@@ -45,7 +45,7 @@ static const struct MomGiftSequential sMomGifts_Sequential[] = {
     {ITEM_FOCUS_SASH,        25000,  1500,  FALSE},
     {ITEM_LEFTOVERS,         30000,  1500,  FALSE},
     {ITEM_CHOICE_SCARF,      35000,  1500,  FALSE},
-    {ITEM_CHOICE_BAND,       40000,  100,   FALSE},
+    {ITEM_CHOICE_BAND,       40000,  1500,  FALSE},
     {DECOR_SNORLAX_DOLL,     50000,  22800, TRUE},
     {ITEM_MASTER_BALL,       100000, 50000, FALSE},
 };

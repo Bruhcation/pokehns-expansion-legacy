@@ -118,6 +118,7 @@ SafariZoneGate_EventScript_IncenseClerk::
 SafariZoneGate_Pokemart_Incenses:
 	.2byte ITEM_SEA_INCENSE
 	.2byte ITEM_LAX_INCENSE
+	.2byte ITEM_OVAL_STONE
 	.2byte ITEM_NONE
 	release
 	end
@@ -139,6 +140,7 @@ SafariZoneGate_Pokemart_Incenses2:
 	.2byte ITEM_TM_SECRET_POWER
 	.2byte ITEM_SEA_INCENSE
 	.2byte ITEM_LAX_INCENSE
+	.2byte ITEM_OVAL_STONE
 	.2byte ITEM_NONE
 	release
 	end
