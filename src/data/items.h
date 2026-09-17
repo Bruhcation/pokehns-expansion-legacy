@@ -711,13 +711,13 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_HYPER_POTION] =
     {
         .name = ITEM_NAME("HYPER POTION"),
-        .price = (I_PRICE >= GEN_2 && I_PRICE <= GEN_6) ? 1200 : 1500,
-        .holdEffectParam = 120,
+        .price = 1200,
+        .holdEffectParam = 150,
         .description = COMPOUND_STRING(
             "Restores the HP of\n"
             "a Pokémon by\n"
         #if I_HEALTH_RECOVERY >= GEN_7
-            "120 points."),
+            "150 points."),
         #else
             "200 points."),
         #endif
@@ -774,7 +774,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_REVIVE] =
     {
         .name = ITEM_NAME("REVIVE"),
-        .price = (I_PRICE >= GEN_7) ? 2000 : 1500,
+        .price = 1500,
         .description = COMPOUND_STRING(
             "Revives a fainted\n"
             "Pokémon with half\n"
@@ -810,12 +810,12 @@ const struct ItemInfo gItemsInfo[] =
     {
         .name = ITEM_NAME("FRESH WATER"),
         .price = 200,
-        .holdEffectParam = 30,
+        .holdEffectParam = 50,
         .description = COMPOUND_STRING(
             "A mineral water\n"
             "that restores HP\n"
         #if I_HEALTH_RECOVERY >= GEN_7
-            "by 30 points."),
+            "by 50 points."),
         #else
             "by 50 points."),
         #endif
@@ -834,12 +834,12 @@ const struct ItemInfo gItemsInfo[] =
     {
         .name = ITEM_NAME("SODA POP"),
         .price = 300,
-        .holdEffectParam = 50,
+        .holdEffectParam = 60,
         .description = COMPOUND_STRING(
             "A fizzy soda drink\n"
             "that restores HP\n"
         #if I_HEALTH_RECOVERY >= GEN_7
-            "by 50 points."),
+            "by 60 points."),
         #else
             "by 60 points."),
         #endif
@@ -858,12 +858,12 @@ const struct ItemInfo gItemsInfo[] =
     {
         .name = ITEM_NAME("LEMONADE"),
         .price = (I_PRICE >= GEN_7) ? 400 : 350,
-        .holdEffectParam = 70,
+        .holdEffectParam = 80,
         .description = COMPOUND_STRING(
             "A very sweet drink\n"
             "that restores HP\n"
         #if I_HEALTH_RECOVERY >= GEN_7
-            "by 70 points."),
+            "by 80 points."),
         #else
             "by 80 points."),
         #endif
@@ -881,7 +881,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_MOOMOO_MILK] =
     {
         .name = ITEM_NAME("MOOMOO MILK"),
-        .price = (I_PRICE >= GEN_7) ? 600 : 500,
+        .price = (I_PRICE >= GEN_7) ? 500 : 500,
         .holdEffectParam = 100,
         .description = COMPOUND_STRING(
             "A nutritious milk\n"
@@ -924,12 +924,12 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_ENERGY_ROOT] =
     {
         .name = ITEM_NAME("ENERGY ROOT"),
-        .price = (I_PRICE >= GEN_7) ? 1200 : 800,
+        .price = 800,
         .description = COMPOUND_STRING(
             "A bitter root\n"
             "that restores HP\n"
         #if I_HEALTH_RECOVERY >= GEN_7
-            "by 120 points."),
+            "by 150 points."),
         #else
             "by 200 points."),
         #endif
@@ -2309,7 +2309,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_REPEL] =
     {
         .name = ITEM_NAME("REPEL"),
-        .price = (I_PRICE >= GEN_7) ? 400 : 350,
+        .price = 100,
         .holdEffectParam = 100,
         .description = COMPOUND_STRING(
             "Repels weak wild\n"
@@ -2327,7 +2327,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_SUPER_REPEL] =
     {
         .name = ITEM_NAME("SUPER REPEL"),
-        .price = (I_PRICE >= GEN_7) ? 700 : 500,
+        .price = 200,
         .holdEffectParam = 200,
         .description = COMPOUND_STRING(
             "Repels weak wild\n"
@@ -2345,7 +2345,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_MAX_REPEL] =
     {
         .name = ITEM_NAME("MAX REPEL"),
-        .price = (I_PRICE >= GEN_7) ? 900 : 700,
+        .price = 250,
         .holdEffectParam = 250,
         .description = COMPOUND_STRING(
             "Repels weak wild\n"
@@ -2363,7 +2363,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_LURE] =
     {
         .name = ITEM_NAME("LURE"),
-        .price = 400,
+        .price = 100,
         .holdEffectParam = 100,
         .description = COMPOUND_STRING(
             "Makes Pokémon more\n"
@@ -2382,7 +2382,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_SUPER_LURE] =
     {
         .name = ITEM_NAME("SUPER LURE"),
-        .price = 700,
+        .price = 200,
         .holdEffectParam = 200,
         .description = COMPOUND_STRING(
             "Makes Pokémon more\n"
@@ -2401,7 +2401,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_MAX_LURE] =
     {
         .name = ITEM_NAME("MAX LURE"),
-        .price = 900,
+        .price = 250,
         .holdEffectParam = 250,
         .description = COMPOUND_STRING(
             "Makes Pokémon more\n"
@@ -15896,7 +15896,7 @@ const struct ItemInfo gItemsInfo[] =
             "A bitter powder\n"
             "that restores HP\n"
         #if I_HEALTH_RECOVERY >= GEN_7
-            "by 120 points."),
+            "by 150 points."),
         #else
             "by 200 points."),
         #endif

@@ -454,3 +454,13 @@ Alola_Poni_NPC_girl_Text_0:
 Alola_Poni_Bench_Heal_Text_0:
 	.string "Would you like to take a rest on this\n"
 	.string "bench?$"
+
+Alola_Poni_Island_HouseSign::
+	lock
+	msgbox Alola_Poni_Island_Sign_Text_1
+	release
+	end
+
+Alola_Poni_Island_Sign_Text_1::
+	.string "PONI ISLE HOUSE$"
+

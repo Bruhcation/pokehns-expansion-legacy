@@ -1214,7 +1214,7 @@ static const struct InGameTrade sIngameTrades[] =
     },
     [INGAME_TRADE_TAUROS_WATER] =
     {
-        .nickname = _("TORY"),
+        .nickname = _("TORA"),
         .species = SPECIES_TAUROS_PALDEA_AQUA,
         .ivs = {31, 31, 31, 31, 31, 31},
         .abilityNum = 0,
@@ -1223,7 +1223,7 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x498a2e1d,
         .heldItem = ITEM_MYSTIC_WATER,
         .mailNum = MAIL_NONE,
-        .otName = _("JESSICA"),
+        .otName = _("SAM"),
         .otGender = FEMALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_NONE
@@ -1246,7 +1246,7 @@ static const struct InGameTrade sIngameTrades[] =
     },
     [INGAME_TRADE_TAUROS_FIRE] =
     {
-        .nickname = _("TORY"),
+        .nickname = _("TORO"),
         .species = SPECIES_TAUROS_PALDEA_BLAZE,
         .ivs = {31, 31, 31, 31, 31, 31},
         .abilityNum = 0,
@@ -1255,8 +1255,8 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x498a2e1f,
         .heldItem = ITEM_CHARCOAL,
         .mailNum = MAIL_NONE,
-        .otName = _("JESSICA"),
-        .otGender = FEMALE,
+        .otName = _("JEREMY"),
+        .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_NONE
     },

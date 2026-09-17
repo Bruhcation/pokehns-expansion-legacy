@@ -28,8 +28,8 @@
     {
       "local_id": "Alola_Poni_Exeggutor",
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(EXEGGUTOR_ALOLA)",
-      "x": 10,
-      "y": 21,
+      "x": 13,
+      "y": 22,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_DOWN",
       "movement_range_x": 0,
@@ -206,6 +206,13 @@
       "elevation": 0,
       "dest_map": "MAP_PONI_CAVE_HNS",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 8,
+      "y": 21,
+      "elevation": 0,
+      "dest_map": "MAP_PONI_HOUSE_HNS",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [
@@ -307,6 +314,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Alola_Poni_Island_Sign"
+    },
+    {
+      "type": "sign",
+      "x": 11,
+      "y": 21,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
     }
   ],
   "game_version": "hns",

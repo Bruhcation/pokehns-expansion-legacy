@@ -81,16 +81,10 @@ Alola_Melemele_Pokecenter_BugCatcher_Text_0:
 Alola_Melemele_Pokecenter_Grubbin_Text_0:
 	.string "Grrr!$"
 
-
-@ Jessica's Paldean Tauros trade. Which Tauros she offers depends on the
-@ player's starter, so the trade always covers one of its weaknesses:
-@ Cyndaquil -> Aqua, Totodile -> Blaze, Chikorita -> Combat.
 Alola_Melemele_Pokecenter_Jessica::
 	lock
 	faceplayer
-	goto_if_set FLAG_COMPLETED_TAUROS_TRADE, Alola_Melemele_Pokecenter_Jessica_TradeCompleted
-	goto_if_eq VAR_STARTER_MON, 0, Alola_Melemele_Pokecenter_Jessica_TradeWater
-	goto_if_eq VAR_STARTER_MON, 1, Alola_Melemele_Pokecenter_Jessica_TradeFire
+	goto_if_set FLAG_COMPLETED_TAUROS_FIGHTING_TRADE, Alola_Melemele_Pokecenter_Jessica_TradeCompleted
 	goto Alola_Melemele_Pokecenter_Jessica_TradeFight
 	end
 
@@ -106,7 +100,7 @@ Alola_Melemele_Pokecenter_Jessica_TradeWater::
 	special DoInGameTradeScene
 	waitstate
 	msgbox Alola_Melemele_Pokecenter_Jessica_Text_TakeCare, MSGBOX_DEFAULT
-	setflag FLAG_COMPLETED_TAUROS_TRADE
+	setflag FLAG_COMPLETED_TAUROS_FIGHTING_TRADE
 	release
 	end
 
