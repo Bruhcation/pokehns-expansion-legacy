@@ -2,6 +2,8 @@ Poni_House_hns_MapScripts::
 	.byte 0
 
 Poni_House_hns_TradeWater::
+	lock
+	faceplayer
 	goto_if_set FLAG_COMPLETED_TAUROS_WATER_TRADE, Poni_House_hns_TradeCompleted
 	setvar VAR_0x8005, INGAME_TRADE_TAUROS_WATER
 	specialvar VAR_0x8009, GetInGameTradeSpeciesInfo
@@ -19,6 +21,8 @@ Poni_House_hns_TradeWater::
 	end
 
 Poni_House_hns_TradeFire::
+	lock
+	faceplayer
 	goto_if_set FLAG_COMPLETED_TAUROS_FIRE_TRADE, Poni_House_hns_FireTradeCompleted
 	setvar VAR_0x8005, INGAME_TRADE_TAUROS_FIRE
 	specialvar VAR_0x8009, GetInGameTradeSpeciesInfo
@@ -77,6 +81,6 @@ Poni_House_hns_Text_FireTakeCare:
 Poni_House_hns_Text_FireDeclineTrade:
 	.string "You don't want to trade? Damn...$"
 
-Poni_House_hns_Text_TradeCompleted:
+Poni_House_hns_Text_FireTradeCompleted:
 	.string "Hi, how's my old TORO doing?$"
 

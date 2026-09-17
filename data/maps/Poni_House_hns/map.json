@@ -2,7 +2,7 @@
   "id": "MAP_PONI_HOUSE_HNS",
   "name": "Poni_House_hns",
   "layout": "LAYOUT_PONI_HOUSE_HNS",
-  "music": "MUS_OCEANIC_MUSEUM",
+  "music": "MUS_SOOTOPOLIS",
   "region_map_section": "MAPSEC_PONI_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
