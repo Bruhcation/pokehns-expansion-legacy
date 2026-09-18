@@ -453,13 +453,6 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .power = 90,
         .type = TYPE_FLYING,
         .accuracy = 100,
-        #if B_UPDATED_MOVE_DATA >= GEN_4
-            .criticalHitStage = 1,
-        #elif B_UPDATED_MOVE_DATA == GEN_2
-            .criticalHitStage = 2,
-        #else
-            .criticalHitStage = 0,
-        #endif
         .pp = 15,
         .target = TARGET_BOTH,
         .priority = 0,
@@ -11373,7 +11366,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "confuse the foe."),
         .effect = EFFECT_HIT,
         .power = 90,
-        .type = TYPE_NORMAL,
+        .type = TYPE_ROCK,
         .accuracy = 100,
         .pp = 20,
         .target = TARGET_SELECTED,
@@ -12039,8 +12032,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .effect = EFFECT_HIT,
         .power = 35,
         .type = TYPE_NORMAL,
-        .accuracy = 90,
-        .pp = 10,
+        .accuracy = 100,
+        .pp = 15,
         .target = TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,

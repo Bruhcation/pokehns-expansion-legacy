@@ -14075,10 +14075,10 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     [SPECIES_EXEGGUTOR_ALOLA] =
     {
         .baseHP        = 95,
-        .baseAttack    = 105,
+        .baseAttack    = 125,
         .baseDefense   = 85,
         .baseSpeed     = 45,
-        .baseSpAttack  = 125,
+        .baseSpAttack  = 105,
         .baseSpDefense = 75,
         .types = MON_TYPES(TYPE_GRASS, TYPE_DRAGON),
         .catchRate = 45,
