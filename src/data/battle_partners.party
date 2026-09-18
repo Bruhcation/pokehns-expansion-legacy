@@ -54,35 +54,35 @@ Music: Hg Champion
 Back Pic: Lance Hns
 AI: Basic Trainer
 
-Dragonite
+Gyarados
 Adamant Nature
-Level: 42
+Level: 30
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 0 HP / 252 Atk / 252 Def / 0 SpA / 6 SpD / 0 Spe
-- Hyper Beam
-- Thunder
-- Safeguard
-- Outrage
+- Waterfall
+- Flamethrower
+- Bite
+- Fly
+
+Aerodactyl
+Adamant Nature
+Level: 31
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 0 SpA / 6 SpD / 252 Spe
+- Rock Tomb
+- Wing Attack
+- Bite
+- Roar
 
 Dragonair
 Adamant Nature
-Level: 35
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 HP / 0 Atk / 0 Def / 0 SpA / 6 SpD / 252 Spe
-- Blizzard
-- Thunder Wave
-- Flamethrower
-- Quick Attack
-
-Charizard
-Adamant Nature
-Level: 36
+Level: 32
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 6 Spe
 - Flamethrower
-- Wing Attack
-- Double Team
-- Steel Wing
+- Ice Beam
+- Thunderbolt
+- Dragon Breath
 
 === PARTNER_SILVER_MEGANIUM_HNS ===
 Name: {B_RIVAL_NAME}

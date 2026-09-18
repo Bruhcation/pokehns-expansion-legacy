@@ -1958,9 +1958,9 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
     #if P_UPDATED_ABILITIES >= GEN_4
-        .abilities = { ABILITY_KEEN_EYE, ABILITY_TANGLED_FEET, ABILITY_BIG_PECKS },
+        .abilities = { ABILITY_GALE_WINGS, ABILITY_TANGLED_FEET, ABILITY_BIG_PECKS },
     #else
-        .abilities = { ABILITY_KEEN_EYE, ABILITY_NONE, ABILITY_BIG_PECKS },
+        .abilities = { ABILITY_GALE_WINGS, ABILITY_NONE, ABILITY_BIG_PECKS },
     #endif
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("PIDGEOT"),
