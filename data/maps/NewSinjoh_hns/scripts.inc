@@ -150,6 +150,7 @@ NewSinjoh_Pokemart_TravelShop:
 	.2byte ITEM_MAX_LURE
 	.2byte ITEM_GREAT_BALL
 	.2byte ITEM_ULTRA_BALL
+	.2byte ITEM_DUSK_BALL
 	.2byte ITEM_NONE
 
 NewSinjoh_Text_TravelShopGreeting:

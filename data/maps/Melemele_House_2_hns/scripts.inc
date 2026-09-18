@@ -17,6 +17,7 @@ Alola_Pokemart_EventScript_Clerk::
 Alola_Pokemart_Pokemart:
 	.2byte ITEM_BIG_MALASADA
 	.2byte ITEM_FRIEND_BALL
+	.2byte ITEM_QUICK_BALL
 	.2byte ITEM_NET_BALL
 	.2byte ITEM_WAVE_INCENSE
 	.2byte ITEM_LEMONADE
