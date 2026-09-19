@@ -7201,33 +7201,43 @@ AI: Basic Trainer
 Mugshot: Light Blue
 Items: Full Restore / Full Restore
 
+Pelipper
+Level: 64
+Ability: Drizzle
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Roost
+- U Turn
+- Weather Ball
+- Hurricane
+
 Noctowl @ Sitrus Berry
 Level: 64
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Ability: Tinted Lens
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Air Slash
 - Hypnosis
-- Dream Eater
+- Hyper Voice
 
 Skarmory
 Level: 63
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Stealth Rock
 - Drill Peck
-- Metal Sound
+- U Turn
 - Steel Wing
 
 Swellow @ Focus Band
 Level: 63
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Endeavor
 - Double Team
 - Brave Bird
-- Steel Wing
+- Boomburst
 
 Honchkrow
 Level: 64
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mimic
 - Dark Pulse
 - Air Slash
@@ -7235,18 +7245,10 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Pidgeot
 Level: 65
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - TailWind
-- Aerial Ace
+- Sky Attack
 - Extreme Speed
-- Sand Attack
-
-Pelipper
-Level: 68
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Roost
-- Brine
-- Steel Wing
 - Hurricane
 
 === TRAINER_BUGSY_1_HNS ===
@@ -7560,7 +7562,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Aqua Ring
 - Aurora Beam
 - Rain Dance
-- Aqua Jet
+- Surf
 
 Sneasel
 Level: 32
@@ -7568,12 +7570,12 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Faint Attack
 - Metal Claw
 - Hone Claws
-- Avalanche
+- Ice Punch
 
 Jynx
 Level: 31
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Ice Punch
+- Aurora Beam
 - Psychic
 - Rain Dance
 - Lovely Kiss
@@ -7583,7 +7585,7 @@ Level: 33
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Headbutt
 - Earthquake
-- Ancient Power
+- Rock Slide
 - Ice Fang
 
 === TRAINER_PRYCE_2_HNS ===
@@ -7675,7 +7677,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Jynx
 Level: 33
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Ice Punch
+- Ice Beam
 - Psychic
 - Rain Dance
 - Lovely Kiss
@@ -7683,9 +7685,9 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Dewgong
 Level: 34
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Brine
+- Surf
 - Aurora Beam
-- Snore
+- Sleep Talk
 - Rest
 
 Piloswine @ Sitrus Berry
@@ -7693,7 +7695,7 @@ Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Headbutt
 - Earthquake
-- Ancient Power
+- Rock Slide
 - Ice Fang
 
 === TRAINER_PRYCE_1_3_HNS ===
@@ -7879,11 +7881,12 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Corsola
 Level: 35
+Ability: Regenerator
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rain Dance
-- Brine
+- Scald
 - Aqua Ring
-- Ancient Power
+- Stealth Rock
 
 Magneton
 Level: 35
@@ -7933,9 +7936,9 @@ Corsola
 Level: 37
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Rain Dance
-- Surf
+- Scald
 - Aqua Ring
-- Ancient Power
+- Stealth Rock
 
 Magnezone
 Level: 37
@@ -7943,13 +7946,14 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Thunderbolt
 - Tri Attack
 - Rain Dance
-- Gyro Ball
+- Flash Cannon
 
 Scizor @ Focus Band
 Level: 38
+Ability: Technician
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- X Scissor
-- Metal Claw
+- Cut
+- Bullet Punch
 - Agility
 - Swords Dance
 
@@ -8317,7 +8321,7 @@ Omastar @ Focus Sash
 Level: 66
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 40 HP / 40 Atk / 40 Def / 40 SpA / 40 SpD / 40 Spe
-- Power Gen
+- Power Gem
 - Ice Beam
 - Surf
 - Toxic
@@ -8502,7 +8506,7 @@ EVs: 40 HP / 40 Atk / 40 Def / 40 SpA / 40 SpD / 40 Spe
 - Toxic
 - Giga Drain
 
-Tangrowth @ Assualt Vest
+Tangrowth @ Assault Vest
 Level: 60
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 40 HP / 40 Atk / 40 Def / 40 SpA / 40 SpD / 40 Spe
@@ -8794,7 +8798,7 @@ Arcanine @ Silk Scarf
 Level: 69
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 40 HP / 40 Atk / 40 Def / 40 SpA / 40 SpD / 40 Spe
-- Flare Biltz
+- Flare Blitz
 - Curse
 - Crunch
 - Extreme Speed
@@ -9419,7 +9423,7 @@ EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
 - Crunch
 - Earthquake
 
-Charizard @ Focus Slash
+Charizard @ Focus Sash
 Level: 68
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
