@@ -23661,7 +23661,7 @@ gBattleAnimMove_Barrage::
 	end
 
 gBattleAnimMove_SkyAttack::
-	choosetwoturnanim SkyAttackSetUp, SkyAttackUnleash
+	goto SkyAttackUnleash
 SkyAttackEnd:
 	end
 SkyAttackSetUp:
@@ -28232,7 +28232,7 @@ SpiderWebThread:
 	return
 
 gBattleAnimMove_RazorWind::
-	choosetwoturnanim RazorWindSetUp, RazorWindUnleash
+	goto RazorWindUnleash
 RazorWindEnd:
 	waitforvisualfinish
 	end

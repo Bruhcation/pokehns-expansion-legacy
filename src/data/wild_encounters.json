@@ -41035,7 +41035,7 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_GROWLITHE"
+                "species": "SPECIES_HOUNDOUR"
               },
               {
                 "min_level": 15,
@@ -41055,7 +41055,7 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_GROWLITHE"
+                "species": "SPECIES_HOUNDOUR"
               },
               {
                 "min_level": 15,
@@ -43566,7 +43566,7 @@
               },
               {
                 "min_level": 22,
-                "max_level": 23,
+                "max_level": 26,
                 "species": "SPECIES_FEAROW"
               },
               {

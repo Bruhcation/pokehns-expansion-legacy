@@ -318,7 +318,7 @@
       "x": 5,
       "y": 6,
       "elevation": 0,
-      "item": "ITEM_FULL_HEAL",
+      "item": "ITEM_ABILITY_CAPSULE",
       "flag": "FLAG_HIDDEN_ITEM_LAKEOFRAGE_FULL_HEAL"
     }
   ],

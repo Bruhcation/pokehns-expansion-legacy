@@ -26,12 +26,12 @@ static const u8 sLevelCapTable_Normal[] =
     [5] = 36,  // badge 5
     [6] = 38,  // badge 6
     [7] = 45,  // badge 7
-    [8] = 56,  // badge 8
+    [8] = 55,  // badge 8
 };
 
 static const u8 sLevelCapTable_Hard[] =
 {
-    [0] = 8,
+    [0] = 10,
     [1] = 15,
     [2] = 20,
     [3] = 23,
@@ -39,12 +39,12 @@ static const u8 sLevelCapTable_Hard[] =
     [5] = 33,
     [6] = 37,
     [7] = 42,
-    [8] = 54,
+    [8] = 52,
 };
 
 // Post-league caps, matching HnS: beating the Johto Elite Four raises the cap to
 // 70 for the Kanto half, and only beating the Kanto league removes it entirely.
-#define KANTO_MAX_LEVEL 70
+#define KANTO_MAX_LEVEL 69
 
 u32 GetCurrentLevelCap(void)
 {

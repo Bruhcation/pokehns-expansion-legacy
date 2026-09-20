@@ -2711,9 +2711,25 @@ Double Battle: No
 AI: Basic Trainer
 Items: Full Restore / Full Restore
 
-Koffing
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Crobat
+Level: 58
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+
+Weezing
+Level: 58
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+
+Marowak
+Level: 58
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+
+Hypno
+Level: 58
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+
+Cloyster
+Level: 58
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_GRUNT_32_HNS ===
 Name: GRUNT
@@ -7205,6 +7221,7 @@ Pelipper
 Level: 64
 Ability: Drizzle
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 40 HP / 40 Atk / 40 Def / 40 SpA / 40 SpD / 40 Spe
 - Roost
 - U Turn
 - Weather Ball
@@ -7221,7 +7238,9 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Skarmory
 Level: 63
+Ability: Sturdy
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 40 HP / 40 Atk / 40 Def / 40 SpA / 40 SpD / 40 Spe
 - Stealth Rock
 - Drill Peck
 - U Turn
@@ -7230,6 +7249,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Swellow @ Focus Band
 Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 40 HP / 40 Atk / 40 Def / 40 SpA / 40 SpD / 40 Spe
 - Endeavor
 - Double Team
 - Brave Bird
@@ -7238,6 +7258,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Honchkrow
 Level: 64
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 40 HP / 40 Atk / 40 Def / 40 SpA / 40 SpD / 40 Spe
 - Mimic
 - Dark Pulse
 - Air Slash
@@ -7245,7 +7266,9 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pidgeot
 Level: 65
+Ability: Gale Wings
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 40 HP / 40 Atk / 40 Def / 40 SpA / 40 SpD / 40 Spe
 - TailWind
 - Sky Attack
 - Extreme Speed
@@ -7582,6 +7605,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Piloswine @ Sitrus Berry
 Level: 33
+Ability: Thick Fat
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Headbutt
 - Earthquake
@@ -7633,6 +7657,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Mamoswine @ Soft Sand
 Level: 65
+Ability: Thick Fat
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Strength
 - Earthquake
@@ -7692,6 +7717,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Piloswine @ Sitrus Berry
 Level: 35
+Ability: Thick Fat
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Headbutt
 - Earthquake
@@ -7743,6 +7769,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Mamoswine @ Sitrus Berry
 Level: 38
+Ability: Thick Fat
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Take Down
 - Earthquake
@@ -8690,7 +8717,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 40 HP / 40 Atk / 40 Def / 40 SpA / 40 SpD / 40 Spe
 - Curse
 - Iron Defense
-- Withdraw
+- Body Press
 - Heat Wave
 
 Rapidash @ Quick Claw
@@ -8711,7 +8738,7 @@ EVs: 40 HP / 40 Atk / 40 Def / 40 SpA / 40 SpD / 40 Spe
 - Psychic
 - Confuse Ray
 
-Houndoom @ Miracle Seed
+Houndoom @ Focus Sash
 Level: 66
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 40 HP / 40 Atk / 40 Def / 40 SpA / 40 SpD / 40 Spe
@@ -8729,14 +8756,14 @@ EVs: 40 HP / 40 Atk / 40 Def / 40 SpA / 40 SpD / 40 Spe
 - Power Gem
 - Earth Power
 
-Camerupt @ Charcoal
+Arcanine @ Leftovers
 Level: 67
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 40 HP / 40 Atk / 40 Def / 40 SpA / 40 SpD / 40 Spe
-- Earth Power
-- Fire Blast
-- Yawn
-- Amnesia
+- Flare Blitz
+- Extreme Speed
+- Crunch
+- Toxic
 
 === TRAINER_BLUE_HNS ===
 Name: BLUE
@@ -9019,6 +9046,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Steelix
 Level: 53
+Ability: Sturdy
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 - Earthquake
@@ -9141,7 +9169,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Steel Wing
 - Haze
 
-Houndoom @ Black Glasses
+Houndoom @ Focus Sash
 Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flamethrower
@@ -9169,7 +9197,7 @@ EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
 - Double Team
 - Baton Pass
 
-Weavile
+Weavile @ Razor Claw
 Level: 67
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
@@ -9205,7 +9233,7 @@ EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
 - Swords Dance
 - Night Slash
 
-Houndoom @ Charcoal
+Houndoom @ Focus Sash
 Level: 69
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
@@ -9225,14 +9253,6 @@ AI: Basic Trainer
 Mugshot: Purple
 Items: Full Restore / Full Restore
 
-Ariados @ Kings Rock
-Level: 50
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Megahorn
-- Giga Drain
-- Double Team
-- Toxic
-
 Qwilfish
 Level: 51
 Ability: Intimidate
@@ -9241,6 +9261,15 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Toxic
 - Protect
 - Poison Jab
+
+Gliscor @ Toxic Orb
+Level: 50
+Ability: Poison Heal
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Protect
+- Double Team
+- Toxic
 
 Muk @ Leftovers
 Level: 50
@@ -9296,13 +9325,14 @@ EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
 - Gunk Shot
 - Toxic
 
-Swalot
+Gliscor @ Toxic Orb
 Level: 67
+Ability: Poison Heal
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
-- Sludge Bomb
-- Ice Beam
-- Amnesia
+- Earthquake
+- Protect
+- Double Team
 - Toxic
 
 Nidoking @ Quick Claw
@@ -9415,6 +9445,7 @@ EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
 - Thunderbolt
 
 Gyarados @ Focus Sash
+Ability: Moxie
 Level: 69
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
@@ -9433,6 +9464,7 @@ EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
 - Double Team
 
 Aerodactyl @ Choice Band
+Ability: Rock Head
 Level: 69
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
@@ -9472,6 +9504,8 @@ Items: Full Restore / Full Restore
 Mugshot: Blue
 
 Gyarados @ Quick Claw
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
 Level: 68
 - Waterfall
 - Earthquake
@@ -9479,6 +9513,8 @@ Level: 68
 - Dragon Rush
 
 Charizard @ Leftovers
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
 Level: 68
 - Fire Blast
 - Aerial Ace
@@ -9486,7 +9522,10 @@ Level: 68
 - Thunder Punch
 
 Dragonite @ Sitrus Berry
-Level: 75
+Ability: Multiscale
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
+Level: 70
 - Iron Tail
 - Ice Punch
 - Dragon Rush
@@ -9503,26 +9542,33 @@ AI: Basic Trainer
 Mugshot: Blue
 Items: Full Restore / Full Restore
 
-Dudunsparce @ Metal Coat
-Level: 52
-- Thunder Wave
-- Thunderbolt
-- Flamethrower
-- Iron Tail
+Dudunsparce @ Quick Claw
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
+Level: 62
+- Shadow Ball
+- Drill Run
+- Boomburst
+- Hyper Drill
 
 Kingdra @ Leftovers
-Level: 56
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
+Level: 64
 - Agility
 - Hydro Pump
 - Ice Beam
 - Dragon Breath
 
-Dragonite
-Level: 60
+Dragonite 
+Ability: Multiscale
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
+Level: 66
 - Agility
 - Thunder
 - Dragon Pulse
-- Hyper Beam
+- Extreme Speed
 
 === TRAINER_RIVAL_CHIKORITA_1_HNS ===
 Name: ???
@@ -14800,14 +14846,17 @@ Items: Full Restore / Full Restore
 Noctowl  
 Ability: Tinted Lens  
 Level: 69  
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
 - Psychic  
 - Air Slash  
 - Calm Mind  
 - Hyper Voice  
 
 Skarmory  
-Ability: Keen Eye  
+Ability: Sturdy
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Level: 69 
 - Drill Peck  
 - Steel Wing  
@@ -14817,34 +14866,41 @@ Level: 69
 Swellow @ Flame Orb  
 Ability: Guts  
 Level: 69 
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
 - Brave Bird  
 - Endeavor  
-- Double Team  
+- Facade  
 - Steel Wing  
 
-Honchkrow  
+Honchkrow @ Quick Claw
 Ability: Moxie  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
 Level: 69 
 - Acrobatics  
 - Night Slash  
-- Mimic  
+- Steel Wing  
 - Roost  
 
-Pidgeot  
-Ability: Keen Eye  
+Pidgeot @ Focus Sash
+Ability: Gale Wings  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
 Level: 69  
 - Extreme Speed  
-- Fly  
-- Tailwind  
-- Sand Attack  
+- Sky Attack  
+- Mega Kick  
+- Toxic 
 
 Pelipper  
 Ability: Drizzle  
 Level: 69 
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
 - Hurricane  
-- Brine  
-- Feather Dance  
+- Weather Ball  
+- Ice Beam  
 - Roost  
 
 === TRAINER_BUGSY_POSTOBC_HNS ===
@@ -14858,27 +14914,31 @@ AI: Smart Trainer / Prediction
 Mugshot: Green
 Items: Full Restore / Full Restore
 
-Forretress  
+Shuckle  
 Ability: Sturdy  
 Level: 69 
-IVs: 0 Spe  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
 - Toxic Spikes  
 - Stealth Rock  
-- Gyro Ball  
-- Iron Defense  
+- Sticky Web  
+- Wrap  
 
-Ledian  
-Ability: Iron Fist  
+Ledian @ Light Clay
+Ability: Regenerator 
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
 Level: 71   
-- Drain Punch  
-- Acrobatics  
-- Swords Dance  
+- Light Screen  
+- Reflect  
+- Agility  
 - Baton Pass  
 
-Masquerain  
+Masquerain @ Mystic Water
 Ability: Intimidate  
 Level: 69   
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
 - Quiver Dance  
 - Hydro Pump  
 - Bug Buzz  
@@ -14887,14 +14947,17 @@ IVs: 0 Atk
 Yanmega @ Sitrus Berry  
 Ability: Speed Boost  
 Level: 70   
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe 
 - Air Slash  
 - Protect  
 - Psychic  
-- Signal Beam  
+- Bug Buzz 
 
 Shedinja @ Focus Sash  
-Ability: Wonder Guard  
+Ability: Wonder Guard 
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe 
 Level: 71 
 - Phantom Force  
 - X-Scissor  
@@ -14903,6 +14966,8 @@ Level: 71
 
 Scizor @ Scope Lens  
 Ability: Technician  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Level: 69  
 - Bullet Punch  
 - Bug Bite  
@@ -14920,51 +14985,61 @@ AI: Smart Trainer / Prediction
 Mugshot: Pink
 Items: Full Restore / Full Restore
 
-Clefable  
+Clefable @ Power Herb
 Ability: Cute Charm  
 Level: 70   
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe 
 - Moonblast  
 - Meteor Beam  
 - Healing Wish  
 - Encore  
 
-Delcatty  
-Ability: Cute Charm  
+Chansey @ Eviolite
+Ability: Cute Charm 
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe 
 Level: 70 
-- Attract  
-- Fake Out  
-- Double-Edge  
-- Play Rough  
+- Soft Boiled  
+- Seismic Toss  
+- Toxic  
+- Stealth Rock 
 
 Ambipom @ Loaded Dice  
 Ability: Technician  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
 Level: 70 
 - Tail Slap  
 - Knock Off  
-- Tail Whip  
+- Low Kick  
 - Aerial Ace  
 
-Ursaluna-Bloodmoon  
+Ursaluna-Bloodmoon @ Quick Claw
 Ability: Mind's Eye  
 Level: 69  
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
 - Blood Moon  
 - Lunar Blessing  
 - Earth Power  
 - Calm Mind  
 
-Miltank @ Silk Scarf  
+Miltank @ Leftovers  
 Ability: Thick Fat  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
 Level: 70  
 - Milk Drink  
 - Defense Curl  
 - Rollout  
 - Iron Head  
 
-Obstagoon  
+Obstagoon @ Leftovers
 Ability: Reckless  
 Level: 70 
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Double-Edge  
 - Obstruct  
 - Cross Poison  
@@ -14981,45 +15056,51 @@ AI: Smart Trainer / Prediction
 Mugshot: Purple
 Items: Full Restore / Full Restore
 
-Sableye  
+Sableye @ Leftovers
 Ability: Prankster  
 Level: 72 
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Foul Play  
 - Will-O-Wisp  
-- Power Gem  
+- Recover  
 - Night Shade  
 
 Wyrdeer @ Silk Scarf  
 Ability: Sap Sipper  
 Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Psyshield Bash  
 - Megahorn  
 - Hypnosis  
 - Body Slam  
 
-Dusknoir  
+Dusknoir @ Quick Claw
 Ability: Pressure  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Level: 70 
-- Shadow Punch  
+- Poltergeist   
 - Fire Punch  
 - Will-O-Wisp  
 - Pain Split  
 
-Typhlosion-Hisui  
+Typhlosion-Hisui 
 Ability: Blaze  
 Level: 70 
-Quirky Nature  
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
 - Infernal Parade  
 - Lava Plume  
 - Confuse Ray  
 - Calm Mind  
 
-Mismagius  
+Mismagius @ Leftovers
 Ability: Levitate  
 Level: 70   
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
 - Mean Look  
 - Perish Song  
 - Pain Split  
@@ -15028,7 +15109,8 @@ IVs: 0 Atk
 Gengar @ Sitrus Berry  
 Ability: Cursed Body  
 Level: 70 
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
 - Hex  
 - Hypnosis  
 - Dream Eater  
@@ -15045,24 +15127,30 @@ AI: Smart Trainer / Prediction
 Mugshot: Orange
 Items: Full Restore / Full Restore
 
-Hitmonchan  
+Hitmonchan @ Focus Sash
 Ability: Iron Fist  
 Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
 - Sky Uppercut  
 - Thunder Punch  
 - Ice Punch  
 - Mach Punch  
 
-Medicham  
+Medicham @ Leftovers
 Ability: Pure Power  
 Level: 70 
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
 - Acupressure  
-- Stored Power  
+- Zen Headbutt  
 - High Jump Kick  
 - Detect  
 
 Annihilape  
 Ability: Vital Spirit  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Level: 70 
 - Cross Chop  
 - Rage Fist  
@@ -15071,14 +15159,18 @@ Level: 70
 
 Sirfetch’d @ Leek  
 Ability: Scrappy  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Level: 70 
 - Leaf Blade  
-- Protect  
-- Quick Attack  
-- Meteor Assault  
+- Roost  
+- Brave Bird  
+- Close Combat 
 
-Sneasler  
+Sneasler 
 Ability: Poison Touch  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
 Level: 70
 - Dire Claw  
 - Close Combat  
@@ -15087,11 +15179,13 @@ Level: 70
 
 Poliwrath @ Sitrus Berry  
 Ability: Water Absorb  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Level: 71  
 - Liquidation  
 - Submission  
 - Belly Drum  
-- Skull Bash  
+- Ice Punch  
 
 === TRAINER_JASMINE_POSTOBC_HNS ===
 Name: JASMINE
@@ -15104,36 +15198,42 @@ AI: Smart Trainer / Prediction
 Mugshot: Yellow
 Items: Full Restore / Full Restore
 
-Skarmory  
-Ability: Keen Eye  
+Skarmory @ Leftovers
+Ability: Sturdy
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Level: 70 
 - Drill Peck  
 - Torment  
 - Steel Wing  
 - Stealth Rock  
 
-Sandslash-Alola  
+Sandslash-Alola @ Choice Band
 Ability: Snow Cloak  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Level: 72 
-- Curse  
-- Avalanche  
+- Ice Shard  
+- Icicle Crash  
 - Iron Head  
-- Spikes  
+- Earthquake  
 
 Corsola @ Damp Rock  
 Ability: Regenerator  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
 Level: 70
-IVs: 0 Atk  
 - Rain Dance  
 - Power Gem  
 - Aqua Ring  
-- Surf  
+- Scald 
 
-Magnezone  
+Magnezone @ Wide Lens
 Ability: Analytic  
 Level: 70
 Sassy Nature  
-IVs: 0 Atk / 0 Spe  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
 - Thunder  
 - Rain Dance  
 - Flash Cannon  
@@ -15142,18 +15242,21 @@ IVs: 0 Atk / 0 Spe
 Perrserker  
 Ability: Steely Spirit  
 Level: 70 
-IVs: 0 Spe  
-- Gyro Ball  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Iron Head  
 - Play Rough  
 - Swords Dance  
 - Gunk Shot  
 
-Steelix @ Quick Claw  
-Ability: Rock Head  
+Steelix @ Choice Band 
+Ability: Sturdy  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Level: 70
-- Head Smash  
+- Rock Slide  
 - Earthquake  
-- Dragon Dance  
+- Crunch 
 - Heavy Slam  
 
 === TRAINER_PRYCE_POSTOBC_HNS ===
@@ -15167,53 +15270,61 @@ AI: Smart Trainer / Prediction
 Mugshot: Light Blue
 Items: Full Restore / Full Restore
 
-Weavile  
+Ninetales-Alola @ Light Clay  
+Ability: Snow Warning  
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe   
+- Aurora Veil  
+- Blizzard  
+- Moonblast  
+- Freeze-Dry  
+
+Weavile @ Focus Sash
 Ability: Pressure  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
 Level: 70 
 - Fake Out  
 - Night Slash  
 - Beat Up  
 - Icicle Crash  
 
-Mr. Rime  
+Mr. Rime @ Room Service
 Ability: Ice Body  
 Level: 71
-IVs: 0 Atk  
-- Teeter Dance  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Freeze Dry  
 - Snowscape  
 - Psyshock  
 - Trick Room  
 
-Ninetales-Alola @ Light Clay  
-Ability: Snow Warning  
-Level: 70
-IVs: 0 Atk  
-- Aurora Veil  
-- Blizzard  
-- Moonblast  
-- Freeze-Dry  
-
-Slowking  
+Slowking @ Leftovers
 Ability: Regenerator  
 Level: 70  
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
 - Chilly Reception  
 - Hydro Pump  
 - Reflect  
-- Safeguard  
+- Psychic  
 
-Mamoswine @ Soft Sand  
-Ability: Oblivious  
+Mamoswine @ Leftovers 
+Ability: Thick Fat  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Level: 71
 - Earthquake  
-- Avalanche  
-- Curse  
+- Icicle Crash  
+- Rock Slide  
 - Ice Shard  
 
-Froslass (F)  
+Froslass (F) @ Bright Powder
 Ability: Snow Cloak  
 Level: 72
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe 
 - Shadow Ball  
 - Blizzard  
 - Will-O-Wisp  
@@ -15230,54 +15341,64 @@ AI: Smart Trainer / Prediction
 Mugshot: Blue
 Items: Full Restore / Full Restore
 
-Dragonair @ Eviolite  
-Ability: Marvel Scale  
-Level: 71
-- Thunder Wave  
-- Thunderbolt  
+Gyarados @ Focus Sash 
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe 
+Level: 70
+- Earthquake 
+- Bounce  
 - Aqua Tail  
-- Light Screen  
+- Rain Dance 
 
 Dudunsparce  
 Ability: Serene Grace  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe 
 Level: 69 
-- Charge Beam  
+- Roost  
 - Boomburst  
-- Poison Jab  
-- Tailwind  
+- Shadow Ball  
+- Calm Mind  
 
 Exeggutor-Alola @ Sitrus Berry  
 Ability: Harvest  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 Level: 70  
 - Wood Hammer  
 - Dragon Hammer  
 - Leech Seed  
 - Moonlight  
 
-Salamence  
-Ability: Moxie  
-Level: 71
-- Dragon Dance  
-- Dragon Rush  
-- Iron Head  
-- Flamethrower  
+Lapras @ Leftovers
+Ability: Hydration  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe 
+Level: 70
+- Hydro Pump  
+- Freeze Dry  
+- Thunderbolt  
+- Rain Dance  
 
 Kingdra @ Scope Lens  
 Ability: Sniper  
-Level: 69 
-IVs: 0 Atk  
+Level: 71 
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe 
 - Focus Energy  
-- Dragon Pulse  
+- Draco Meteor 
 - Hydro Pump  
 - Ice Beam  
 
-Dragonite  
+Dragonite @ Lum Berry
 Ability: Multiscale  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe 
 Level: 70  
 - Extreme Speed  
-- Dragon Pulse  
-- Flamethrower  
-- Hyper Beam  
+- Outrage 
+- Fire Punch  
+- Earthquake  
 
 === TRAINER_BROCK_POSTOBC_HNS ===
 Name: BROCK
@@ -15292,6 +15413,8 @@ Items: Full Restore / Full Restore
 
 Kleavor @ Razor Claw  
 Ability: Sharpness  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe 
 Level: 72 
 - Stone Axe  
 - X-Scissor  
@@ -15300,44 +15423,52 @@ Level: 72
 
 Gliscor @ Toxic Orb  
 Ability: Poison Heal  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 252 SpD / 0 Spe 
 Level: 71 
 - Spikes  
 - Protect  
 - Crabhammer  
 - Earthquake  
 
-Aerodactyl  
+Aerodactyl @ Focus Sash
 Ability: Unnerve  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe 
 Level: 72
-- Fire Fang  
+- Rock Slide  
 - Sky Attack  
 - Earthquake  
 - Dragon Dance  
 
-Omastar  
-Ability: Swift Swim  
+Omastar @ Leftovers
+Ability: Shell Armor  
 Level: 70
 IVs: 0 Atk  
-- Ancient Power  
+- Power Gem  
 - Surf  
 - Ice Beam  
 - Toxic  
 
 Relicanth @ Hard Stone  
 Ability: Rock Head  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 Level: 70 
 - Wave Crash  
 - Head Smash  
 - Calm Mind  
-- Thunderbolt  
+- Earthquake  
 
 Golem-Alola @ Magnet  
 Ability: Galvanize  
 Level: 72  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe 
 - Stone Edge  
 - Body Slam  
-- Autotomize  
-- Charge  
+- Explosion  
+- Earthquake  
 
 === TRAINER_MISTY_POSTOBC_HNS ===
 Name: MISTY
@@ -15352,43 +15483,49 @@ Items: Full Restore / Full Restore
 
 Politoed @ Damp Rock  
 Ability: Drizzle  
-Level: 71 
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe 
 - Weather Ball  
-- Seismic Toss  
-- Metronome  
+- Ice Beam  
+- Flip Turn  
 - Hypnosis  
 
 Swampert @ Quick Claw  
 Ability: Torrent  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Level: 71 
 - Rain Dance  
-- Barrier  
+- Ice Punch  
 - Earthquake  
 - Liquidation  
 
 Vaporeon @ Leftovers  
 Ability: Water Absorb  
 Level: 71  
-EVs: 32 HP / 40 Def / 12 SpD  
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
 - Aqua Ring  
 - Hydro Pump  
 - Ice Beam  
 - Acid Armor  
 
-Milotic @ Shell Bell  
+Milotic @ Flame Orb  
 Ability: Marvel Scale  
 Level: 70   
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
 - Scald  
 - Ice Beam  
-- Rest  
-- Sleep Talk  
+- Toxic  
+- Recover  
 
 Lapras  
 Ability: Shell Armor  
 Level: 70 
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
 - Freeze-Dry  
 - Hydro Pump  
 - Rain Dance  
@@ -15397,7 +15534,8 @@ IVs: 0 Atk
 Starmie @ Mystic Water  
 Ability: Natural Cure  
 Level: 70
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
 - Psyshock  
 - Surf  
 - Thunderbolt  
@@ -15417,40 +15555,49 @@ Mugshot: Yellow
 Electrode @ Normal Gem  
 Ability: Soundproof  
 Level: 70  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
 - Electro Ball  
 - Rain Dance  
-- Explosion  
+- Explosion 
+- Flash Cannon 
 
-Jolteon  
+Jolteon @ Focus Sash
 Ability: Volt Absorb  
 Level: 69   
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
 - Electric Terrain  
 - Thunder  
-- Rain Dance  
+- Shadow Ball  
 - Reflect  
 
 Lanturn @ Leftovers  
 Ability: Volt Absorb  
 Level: 70   
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
 - Rain Dance  
 - Thunder  
-- Ion Deluge  
+- Ice Beam  
 - Hydro Pump  
 
 Manectric @ Terrain Extender  
 Ability: Lightning Rod  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe 
 Level: 70  
 - Electric Terrain  
-- Charge  
-- Wild Charge  
-- Crunch  
+- Thunderbolt  
+- Flamethrower  
+- Shadow Ball  
 
 Electivire @ Scope Lens  
 Ability: Motor Drive  
-Level: 69  
-- Thunder Punch  
+Level: 69
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe  
+- Volt Tackle  
 - Ice Punch  
 - Cross Chop  
 - Bulk Up  
@@ -15458,7 +15605,8 @@ Level: 69
 Raichu-Alola @ Electric Seed  
 Ability: Surge Surfer  
 Level: 71  
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe  
 - Rising Voltage  
 - Electric Terrain  
 - Psyshock  
@@ -15478,55 +15626,62 @@ Items: Full Restore / Full Restore
 Roserade @ Focus Sash  
 Ability: Natural Cure  
 Level: 70
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
 - Toxic Spikes  
 - Venoshock  
 - Toxic  
 - Petal Dance  
 
-Tangrowth @ Leftovers  
-Ability: Chlorophyll  
+Tangrowth @ Assault Vest  
+Ability: Regenerator  
 Level: 71 
-IVs: 0 Atk  
-- Ingrain  
-- Giga Drain  
-- Grassy Terrain  
-- Protect  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Power Whip  
+- Rock Slide  
+- Earthquake  
+- Knock Off  
 
-Venusaur  
+Venusaur @ Leftovers
 Ability: Overgrow  
 Level: 70
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
 - Sludge Bomb  
 - Energy Ball  
 - Synthesis  
-- Poison Powder  
+- Earth Power  
 
 Electrode-Hisui @ Miracle Seed  
 Ability: Aftermath  
 Level: 71  
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
 - Chloroblast  
 - Electro Ball  
-- Foul Play  
+- Foul Play 
+- Thunder Wave 
 
 Bellossom @ Lum Berry  
 Ability: Chlorophyll  
 Level: 72
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
 - Grassy Terrain  
 - Quiver Dance  
 - Petal Dance  
-- Attract  
+- Psychic  
 
 Ludicolo  
 Ability: Swift Swim  
 Level: 70
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe  
 - Rain Dance  
 - Hydro Pump  
 - Energy Ball  
-- Double Team  
+- Ice Beam  
 
 === TRAINER_JANINE_POSTOBC_HNS ===
 Name: JANINE
@@ -15539,34 +15694,40 @@ AI: Smart Trainer / Prediction
 Mugshot: Purple
 Items: Full Restore / Full Restore
 
-Swalot  
+Swalot @ Leftovers
 Ability: Liquid Ooze  
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
 Level: 70
 - Toxic Spikes  
-- Stockpile  
-- Swallow  
-- Spit Up  
+- Toxic  
+- Sludge Bomb  
+- Ice Beam  
 
 Weezing-Galar @ Fairy Feather  
-Ability: Levitate  
+Ability: Levitate
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe   
 Level: 70 
-IVs: 0 Atk  
 - Strange Steam  
 - Sludge Bomb  
 - Flamethrower  
 - Corrosive Gas  
 
 Muk-Alola @ Leftovers  
-Ability: Poison Touch  
+Ability: Poison Touch 
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 Level: 70 
 - Gunk Shot  
 - Acid Armor  
 - Power-Up Punch  
-- Disable  
+- Crunch 
 
-Crobat  
-Ability: Infiltrator  
+Crobat @ Leftovers
+Ability: Infiltrator 
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe 
 Level: 70  
 - Leech Life  
 - Confuse Ray  
@@ -15575,20 +15736,23 @@ Level: 70
 
 Sneasler @ Flying Gem  
 Ability: Unburden  
-Level: 70 
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
 - Acrobatics  
 - Dire Claw  
 - Close Combat  
 - Fake Out  
 
-Venomoth @ Bright Powder  
-Ability: Shield Dust  
-Level: 73 
-IVs: 0 Atk  
-- Venoshock  
-- Signal Beam  
+Venomoth @ Focus Sash  
+Ability: Tinted Lens  
+Level: 73  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe 
+- Sludge Bomb  
+- Bug Buzz  
 - Double Team  
-- Toxic  
+- Quiver Dance  
 
 === TRAINER_SABRINA_POSTOBC_HNS ===
 Name: SABRINA
@@ -15603,15 +15767,18 @@ Items: Full Restore / Full Restore
 
 Mr. Mime-Galar @ Eviolite  
 Ability: Vital Spirit  
-Level: 70
-IVs: 0 Atk  
+Level: 70 
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
 - Light Screen  
 - Reflect  
 - Psychic  
 - Freeze-Dry  
 
 Slowbro-Galar @ Quick Claw  
-Ability: Quick Draw  
+Ability: Quick Draw 
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe  
 Level: 70 
 - Shell Side Arm  
 - Calm Mind  
@@ -15620,38 +15787,43 @@ Level: 70
 
 Espeon  
 Ability: Magic Bounce  
-Level: 70
-IVs: 0 Atk  
+Level: 70  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe  
 - Psychic  
 - Morning Sun  
 - Psychic Terrain  
 - Power Gem  
 
-Rapidash-Galar  
+Rapidash-Galar @ Expert Belt
 Ability: Pastel Veil  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe  
 Level: 70 
 - Play Rough  
-- Psycho Cut  
+- Zen Headbutt  
 - Wild Charge  
 - Swords Dance  
 
 Wobbuffet @ Leftovers  
 Ability: Shadow Tag  
-Level: 70  
-IVs: 0 Atk  
+Level: 70 
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 - Counter  
 - Mirror Coat  
 - Encore  
 - Destiny Bond  
 
-Alakazam  
+Alakazam @ Life Orb
 Ability: Magic Guard  
 Level: 70 
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe  
 - Psyshock  
 - Shadow Ball  
 - Calm Mind  
-- Tri Attack  
+- Focus Blast  
 
 === TRAINER_BLAINE_POSTOBC_HNS ===
 Name: BLAINE
@@ -15667,53 +15839,59 @@ Items: Full Restore / Full Restore
 Torkoal @ Heat Rock  
 Ability: Drought  
 Level: 71 
-IVs: 0 Spe  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
 - Solar Beam  
 - Heat Wave  
-- Gyro Ball  
+- Body Press  
 - Iron Defense  
 
 Magmortar @ Magnet  
 Ability: Flame Body  
-Level: 70 
-IVs: 0 Atk  
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe 
 - Fire Blast  
 - Thunderbolt  
 - Confuse Ray  
 - Clear Smog  
 
-Blaziken @ Scope Lens  
+Blaziken @ Life Orb  
 Ability: Speed Boost  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
 Level: 70 
 - Blaze Kick  
-- Power-Up Punch  
+- Close Combat  
 - Thunder Punch  
 - Protect  
 
-Magcargo @ Absorb Bulb  
+Typhlosion-Hisui @ Choice Scarf 
 Ability: Flame Body  
 Level: 70 
 IVs: 0 Atk  
-- Sunny Day  
-- Flamethrower  
-- Recover  
-- Amnesia  
+- Eruption  
+- Shadow Ball  
+- Thunderbolt  
+- Earth Power  
 
-Arcanine-Hisui @ Rock Incense  
-Ability: Rock Head  
+Arcanine-Hisui @ Choice Band  
+Ability: Rock Head
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe  
 Level: 70 
 - Head Smash  
 - Raging Fury  
 - Wild Charge  
 - Extreme Speed  
 
-Camerupt @ Leftovers  
-Ability: Solid Rock  
-Level: 70 
-IVs: 0 Atk  
-- Eruption  
-- Protect  
-- Amnesia  
+Magcargo @ White Herb 
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe 
+- Shell Smash  
+- Power Gem  
+- Fire Blast
 - Earth Power  
 
 === TRAINER_BLUE_POSTOBC_HNS ===
@@ -15727,24 +15905,30 @@ AI: Smart Trainer / Prediction
 Mugshot: Blue
 Items: Full Restore / Full Restore
 
-Rhyperior @ Loaded Dice  
-Ability: Solid Rock  
+Rhyperior @ Focus Sash  
+Ability: Solid Rock
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe   
 Level: 70 
-- Rock Blast  
-- Drill Run  
+- Rock Climb  
+- Earthquake  
 - Toxic  
 - Stealth Rock  
 
-Pidgeot @ Quick Claw  
-Ability: Keen Eye  
+Pidgeot @ Focus Sash 
+Ability: Gale Wings 
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe 
 Level: 70  
-- Feather Dance  
-- Air Slash  
-- Brave Bird  
-- Roost  
+- Mega Kick  
+- Extreme Speed  
+- Sky Attack  
+- Toxic
 
-Machamp @ Scope Lens  
+Machamp @ Leftovers  
 Ability: No Guard  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Level: 70  
 - Dynamic Punch  
 - Dual Chop  
@@ -15752,28 +15936,32 @@ Level: 70
 - Bulk Up  
 
 Marowak-Alola @ Thick Club  
-Ability: Lightning Rod  
+Ability: Rock Head
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 Level: 71  
 - Shadow Bone  
 - Flame Charge  
-- Pain Split  
+- Flare Blitz 
 - Bonemerang  
 
-Tyranitar @ Rocky Helmet  
-Ability: Unnerve  
+Tyranitar @ Assault Vest 
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe    
 Level: 70  
-- Stone Edge  
+- Rock Climb  
 - Crunch  
-- Curse  
+- Earthquake 
 - Thunder Punch  
 
-Blastoise @ Sitrus Berry  
-Ability: Torrent  
+Blastoise @ White Herb  
+Ability: Torrent 
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe  
 Level: 73   
-IVs: 0 Atk  
 - Scald  
 - Dark Pulse  
-- Water Spout  
+- Ice Beam  
 - Shell Smash  
 
 === TRAINER_WILL_POSTOBC_HNS ===
@@ -15790,7 +15978,8 @@ Items: Full Restore / Full Restore
 Gardevoir @ Light Clay  
 Ability: Trace  
 Level: 74 
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe  
 - Psyshock  
 - Moonblast  
 - Reflect  
@@ -15799,43 +15988,49 @@ IVs: 0 Atk
 Jynx @ Never-Melt Ice  
 Ability: Dry Skin  
 Level: 75 
-IVs: 0 Atk  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe  
 - Lovely Kiss  
-- Sweet Kiss  
+- Shadow Ball  
 - Ice Beam  
 - Psychic  
 
-Slowking-Galar @ Black Sludge  
-Ability: Own Tempo  
+Slowking-Galar @ Black Sludge
+Ability: Regenerator  
 Level: 76 
-IVs: 0 Atk  
-- Eerie Spell  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe  
 - Trick Room  
 - Calm Mind  
 - Sludge Wave  
+- Eerie Spell  
 
-Grumpig @ Leftovers  
-Ability: Thick Fat  
+Farigiraf @ Leftovers  
+Ability: Armor Tail 
 Level: 77  
-IVs: 0 Atk  
-- Teeter Dance  
-- Power Gem  
-- Snore  
-- Rest  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe  
+- Hyper Voice  
+- Psychic 
+- Shadow Ball  
+- Calm Mind 
 
-Slowbro  
-Ability: Oblivious  
+Slowbro @ Expert Belt
+Ability: Regenerator  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe  
 Level: 77  
-- Fire Punch  
-- Curse  
-- Earthquake  
-- Zen Headbutt  
+- Flamethrower  
+- Ice Beam  
+- Surf 
+- Psychic 
 
 Xatu  
 Ability: Magic Bounce  
 Level: 79 
-IVs: 0 Atk  
-- Future Sight  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 252 Def / 252 SpA / 0 SpD / 0 Spe  
+- Psychic  
 - Air Slash  
 - Confuse Ray  
 - Protect  
@@ -15851,54 +16046,63 @@ AI: Smart Trainer / Prediction
 Mugshot: Purple
 Items: Full Restore / Full Restore
 
-Clodsire  
-Ability: Water Absorb  
+Clodsire @ Leftovers
+Ability: Unaware
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe   
 Level: 74 
 - Toxic Spikes  
+- Poison Jab  
+- Recover  
 - Earthquake  
-- Gunk Shot  
-- Curse  
 
 Overqwil @ Black Sludge  
-Ability: Poison Point  
+Ability: Poison Point
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe   
 Level: 75
 - Barb Barrage  
 - Lash Out  
 - Swords Dance  
 - Aqua Jet  
 
-Ariados @ Blunder Policy  
-Ability: Sniper  
+Gliscor @ Toxic Orb  
+Ability: Poison Heal  
 Level: 76
-EVs: 252 Spe  
-Jolly Nature  
-- Sticky Web  
-- Megahorn  
-- Cross Poison  
-- Disable  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe   
+Adamant Nature  
+- Knock Off
+- Toxic  
+- Protect  
+- Stealth Rock 
 
 Nidoking @ Life Orb  
 Ability: Sheer Force  
-Level: 77   
-IVs: 0 Atk  
+Level: 77 
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe  
 - Fire Blast  
 - Ice Beam  
 - Earth Power  
-- Noble Roar  
+- Sludge Wave
 
 Venomoth @ Bright Powder  
-Ability: Shield Dust  
+Ability: Tinted Lens 
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe  
 Level: 77  
-IVs: 0 Atk  
-- Venoshock  
+- Sleep Powder  
 - Bug Buzz  
-- Double Team  
-- Disable  
+- Sludge Bomb  
+- Quiver Dance 
 
-Crobat  
-Ability: Inner Focus  
+Crobat @ Leftovers
+Ability: Infiltrator  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe  
 Level: 79  
-- Acrobatics  
+- Sky Attack   
 - Cross Poison  
 - Toxic  
 - Confuse Ray  
@@ -15916,50 +16120,63 @@ Items: Full Restore / Full Restore
 
 Steelix @ Assault Vest  
 Ability: Rock Head  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe  
 Level: 74 
-EVs: 252 SpD  
 Sassy Nature  
 - Heavy Slam  
 - Earthquake  
 - Crunch  
 - Aqua Tail  
 
-Tauros-Paldea-Blaze  
-Ability: Intimidate  
-Level: 75 
-- Raging Bull  
-- Close Combat  
-- Rock Slide  
-- Bulk Up  
-
-Heracross @ Loaded Dice  
-Ability: Moxie  
-Level: 76 
-- Pin Missile  
-- Close Combat  
-- Earthquake  
-- Knock Off  
-
-Hariyama @ Sitrus Berry  
-Ability: Thick Fat  
-Level: 77  
-- Fake Out  
-- Belly Drum  
-- Cross Chop  
-- Body Slam  
 
 Hitmontop @ Expert Belt  
-Ability: Technician  
+Ability: Technician    
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Level: 77 
 - Triple Kick  
 - Victory Dance  
 - Bullet Punch  
 - Pursuit  
 
+
+Tauros-Paldea-Blaze @ Sitrus Berry
+Ability: Intimidate    
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+Level: 75 
+- Wave Crash  
+- Close Combat  
+- Rock Slide  
+- Bulk Up  
+
+Heracross @ Loaded Dice  
+Ability: Moxie    
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+Level: 76 
+- Pin Missile  
+- Close Combat  
+- Earthquake  
+- Knock Off  
+
+Annihilape @ Leftovers  
+Ability: Defiant   
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+Level: 77  
+- Rage Fist  
+- Bulk Up  
+- Drain Punch 
+- Taunt 
+
 Machamp @ Flame Orb  
-Ability: Guts  
+Ability: Guts    
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Level: 79  
-- Facade  
+- Bullet Punch 
 - Cross Chop  
 - Earthquake  
 - Rock Slide  
@@ -15975,53 +16192,63 @@ AI: Smart Trainer / Prediction
 Mugshot: Yellow
 Items: Full Restore / Full Restore
 
-Umbreon @ Black Glasses  
-Ability: Synchronize  
-Level: 74  
-IVs: 0 Atk  
-- Lunar Blessing  
-- Foul Play  
-- Shadow Ball  
-- Calm Mind  
-
-Weavile @ Razor Claw  
-Ability: Pressure  
-Level: 75  
-- Hone Claws  
-- Night Slash  
-- Icicle Crash  
-- Low Kick  
-
 Persian-Alola @ Charcoal  
 Ability: Fur Coat  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
 Level: 76 
 - Fake Out  
 - Dark Pulse  
 - Nasty Plot  
 - Burning Jealousy  
 
-Honchkrow  
-Ability: Moxie  
-Level: 77 
+Umbreon @ Leftovers 
+Ability: Synchronize  
+Level: 74  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 252 Def / 0 SpA / 0 SpD / 0 Spe
+- Lunar Blessing  
+- Foul Play  
+- Toxic  
+- Confuse Ray  
+
+Weavile @ Razor Claw  
+Ability: Pressure  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+Level: 75  
+- Hone Claws  
 - Night Slash  
-- Brave Bird  
-- Roost  
-- Taunt  
+- Icicle Crash  
+- Low Kick  
+
+Gengar @ Life Orb
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
+Level: 77 
+- Shadow Ball  
+- Sludge Bomb  
+- Dazzling Gleam  
+- Focus Blast
 
 Obstagoon @ Flame Orb  
 Ability: Guts  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Level: 77 
-- Close Combat  
+- Throat Chop 
 - Double-Edge  
 - Fling  
 - Cross Chop  
 
-Houndoom  
-Ability: Unnerve  
+Houndoom @ Focus Sash
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
+Nature: Modest
 Level: 79  
 - Fire Blast  
-- Crunch  
-- Iron Tail  
+- Dark Pulse  
+- Sludge Bomb  
 - Destiny Bond  
 
 === TRAINER_LANCE_POSTOBC_HNS ===
@@ -16037,49 +16264,60 @@ Mugshot: Blue
 
 Salamence @ Assault Vest  
 Ability: Intimidate  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
 Level: 77 
 - Draco Meteor  
 - Iron Head  
-- Double-Edge  
-- Fly  
+- Outrage  
+- Earthquake 
 
 Gyarados @ Eject Button  
 Ability: Intimidate  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
 Level: 77 
-- Waterfall  
-- Hyper Beam  
+- Aqua Tail 
+- Earthquake 
 - Crunch  
-- Scary Face  
+- Bounce 
 
 Charizard  
 Ability: Blaze  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
 Level: 78 
 - Fire Blast  
-- Earthquake  
-- Acrobatics  
-- Swords Dance  
+- Scorching Sands 
+- Air Slash  
+- Blast Burn
 
 Noivern @ Silk Scarf  
 Ability: Infiltrator  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
 Level: 78 
-IVs: 0 Atk  
 - Boomburst  
 - Dragon Pulse  
 - Moonlight  
 - Super Fang  
 
-Aerodactyl @ Scope Lens  
+Aerodactyl @ Choice Band
 Ability: Rock Head  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
 Level: 79
 - Rock Slide  
 - Earthquake  
 - Sky Attack  
-- Dragon Dance  
+- Double Edge 
 
 Dragonite @ Leftovers  
 Ability: Multiscale  
-Level: 79 
-- Iron Head  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 80 
+- Extreme Speed  
 - Fire Punch  
 - Dragon Rush  
 - Dragon Dance  
@@ -16096,23 +16334,31 @@ Items: Full Restore / Full Restore
 
 Pikachu-Starter @ Light Ball  
 Ability: Lightning Rod
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 128 Atk / 0 Def / 128 SpA / 0 SpD / 252 Spe
 Level: 95
 - Volt Tackle  
 - Surf  
 - Iron Tail  
 - Double Team  
 
-Snorlax @ Chesto Berry  
-Ability: Immunity  
+Snorlax @ Leftovers
+Ability: Thick Fat 
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Level: 85
-- Belly Drum  
-- Earthquake  
-- Rest  
-- Heavy Slam  
+Careful Nature
+- Curse
+- Frustration
+- Rest
+- Earthquake
 
 Charizard @ Choice Specs
 Ability: Blaze  
 Level: 87  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
+Modest Nature
 - Fire Blast  
 - Air Slash 
 - Dragon Pulse  
@@ -16121,25 +16367,32 @@ Level: 87
 Venusaur @ Blunder Policy  
 Ability: Chlorophyll  
 Level: 87  
+Timid Nature
 Tera Type: Grass  
-EVs: 252 Spe  
-IVs: 0 Atk  
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sunny Day  
 - Solar Beam  
 - Earth Power  
-- Sleep Powder 
+- Weather Ball 
 
 Blastoise @ Leftovers  
 Ability: Torrent  
+Modest Nature
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Level: 86
 - Hydro Pump
-- Earthquake 
+- Mirror Coat
 - Ice Beam  
 - Flash Cannon  
 
 Tauros-Paldea-Combat @ Sitrus Berry  
 Ability: Cud Chew  
 Level: 85  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+Jolly Nature
 Tera Type: Fighting  
 - Close Combat  
 - Wild Charge  

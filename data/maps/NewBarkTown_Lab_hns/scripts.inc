@@ -531,7 +531,7 @@ NewBarkTown_Lab_EventScript_Elm_Togepi_Seen::
 	waitmessage
 	msgbox NewBarkTown_Lab_Text_ElmGiveEverstone1, MSGBOX_DEFAULT
 	waitmessage
-	giveitem ITEM_EVERSTONE
+	giveitem ITEM_EVIOLITE
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	msgbox NewBarkTown_Lab_Text_ElmGiveEverstone2, MSGBOX_DEFAULT
 	closemessage

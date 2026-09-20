@@ -105,7 +105,7 @@ Route35_EventScript_Item_Nugget::
 	end
 
 Route35_EventScript_Item_ParalyzeHeal::
-	finditem ITEM_PARALYZE_HEAL
+	finditem ITEM_EVIOLITE
 	end
 
 Route35_Text_CamperIvanSeen:
