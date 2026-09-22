@@ -65,6 +65,14 @@ LakeOfRage_EventScript_Nerd::
 	msgbox LakeOfRage_Text_SuperNerd, MSGBOX_NPC
 	end
 
+LakeOfRage_EventScript_Gio::
+	msgbox LakeOfRage_Text_Gio, MSGBOX_NPC
+	end
+
+LakeOfRage_Text_Gio::
+	.string "Nothin' but GYARADOS\n"
+	.string "I know It's them.$"
+
 LakeOfRage_EventScript_Andre::
 	trainerbattle_single TRAINER_ANDRE_HNS, LakeOfRage_Text_FisherAndreSeen, LakeOfRage_Text_FisherAndreBeaten
 	msgbox LakeOfRage_Text_FisherAndreAfter, MSGBOX_AUTOCLOSE
@@ -106,7 +114,6 @@ LakeOfRage_EventScript_Defeated_Gyarados::
 	clearflag FLAG_HIDE_LAKE_OF_RAGE_LANCE
 	addobject LOCALID_LAKEOFRAGE_LANCE
 	giveitem ITEM_RED_SCALE
-	setobjectxyperm LOCALID_LAKEOFRAGE_OLDMAN, 32, 38
 	setvar VAR_MAHOGANY_TOWN_STATE, 2
 	release
 	end
@@ -143,7 +150,7 @@ LakeOfRage_EventScript_Lance::
 	closemessage
 	delay 20
 	faceplayer
-	turnobject LOCALID_LAKEOFRAGE_OLDMAN, DIR_WEST
+	turnobject LOCALID_LAKEOFRAGE_GIOVANNI, DIR_EAST
 	msgbox LakeOfRage_Text_LanceIntro2, MSGBOX_DEFAULT
 	setvar VAR_MAHOGANY_TOWN_STATE, 3
 	msgbox LakeOfRage_Text_LanceIntro3, MSGBOX_YESNO
@@ -154,8 +161,10 @@ LakeOfRage_EventScript_LanceAccept::
 	closemessage
 	goto_if_eq VAR_FACING, DIR_NORTH, LakeOfRage_EventScript_LanceDragoniteLeaveNorth
 	applymovement LOCALID_LAKEOFRAGE_LANCE, LakeOfRage_Movement_LanceLeave
+	applymovement LOCALID_LAKEOFRAGE_GIOVANNI, LakeOfRage_Movement_GiovanniLeave
 	applymovement LOCALID_LAKEOFRAGE_DRAGONITE, LakeOfRage_Movement_DragoniteLeave
 	waitmovement LOCALID_LAKEOFRAGE_LANCE
+	waitmovement LOCALID_LAKEOFRAGE_GIOVANNI
 	waitmovement LOCALID_LAKEOFRAGE_DRAGONITE
 LakeOfRage_EventScript_EndScene::
 	setflag FLAG_HIDE_LAKE_OF_RAGE_LANCE
@@ -182,10 +191,24 @@ LakeOfRage_EventScript_LancDeclined::
 
 LakeOfRage_EventScript_LanceDragoniteLeaveNorth::
 	applymovement LOCALID_LAKEOFRAGE_LANCE, LakeOfRage_Movement_LanceLeaveNorth
+	applymovement LOCALID_LAKEOFRAGE_GIOVANNI, LakeOfRage_Movement_GiovanniLeave
 	applymovement LOCALID_LAKEOFRAGE_DRAGONITE, LakeOfRage_Movement_DragoniteLeaveNorth
 	waitmovement LOCALID_LAKEOFRAGE_LANCE
+	waitmovement LOCALID_LAKEOFRAGE_GIOVANNI
 	waitmovement LOCALID_LAKEOFRAGE_DRAGONITE
 	goto LakeOfRage_EventScript_EndScene
+
+LakeOfRage_Movement_GiovanniLeave:
+	walk_down
+	delay_8
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	step_end
 
 LakeOfRage_Movement_LanceLeaveNorth:
 	walk_left

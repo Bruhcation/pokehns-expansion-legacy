@@ -58,10 +58,21 @@ IndigoPlateau_EventScript_Silver::
 	lock
 	faceplayer 
 	goto_if_set FLAG_DAILY_BEAT_SILVER, IndigoPlateau_EventScript_SilverBeat
+	goto_if_ge VAR_SINJOH_STORYLINE, 13, IndigoPlateau_EventScript_SilverPostGame
 	msgbox IndigoPlateau_Text_RivalEntrance1, MSGBOX_DEFAULT
 	call_if_eq VAR_STARTER_MON, 0, IndigoPlateau_Silver_Battle_Cyndaquil
 	call_if_eq VAR_STARTER_MON, 1, IndigoPlateau_Silver_Battle_Totodile
 	call_if_eq VAR_STARTER_MON, 2, IndigoPlateau_Silver_Battle_Chikorita
+	msgbox IndigoPlateau_Text_RivalAfter, MSGBOX_DEFAULT
+	setflag FLAG_DAILY_BEAT_SILVER
+	release
+	end
+
+IndigoPlateau_EventScript_SilverPostGame::
+	msgbox IndigoPlateau_Text_RivalEntrance1, MSGBOX_DEFAULT
+	call_if_eq VAR_STARTER_MON, 0, IndigoPlateau_Silver_Battle_CyndaquilPost
+	call_if_eq VAR_STARTER_MON, 1, IndigoPlateau_Silver_Battle_TotodilePost
+	call_if_eq VAR_STARTER_MON, 2, IndigoPlateau_Silver_Battle_ChikoritaPost
 	msgbox IndigoPlateau_Text_RivalAfter, MSGBOX_DEFAULT
 	setflag FLAG_DAILY_BEAT_SILVER
 	release
@@ -83,6 +94,18 @@ IndigoPlateau_Silver_Battle_Totodile::
 
 IndigoPlateau_Silver_Battle_Chikorita::
 	trainerbattle_no_intro TRAINER_RIVAL_CHIKORITA_7_HNS, IndigoPlateau_Text_RivalWin
+	return
+
+IndigoPlateau_Silver_Battle_CyndaquilPost::
+	trainerbattle_no_intro TRAINER_SILVER_CYNDAQUIL_POSTOBC_HNS, IndigoPlateau_Text_RivalWin
+	return
+
+IndigoPlateau_Silver_Battle_TotodilePost::
+	trainerbattle_no_intro TRAINER_SILVER_TOTODILE_POSTOBC_HNS, IndigoPlateau_Text_RivalWin
+	return
+
+IndigoPlateau_Silver_Battle_ChikoritaPost::
+	trainerbattle_no_intro TRAINER_SILVER_CHIKORITA_POSTOBC_HNS, IndigoPlateau_Text_RivalWin
 	return
 
 IndigoPlateau_Text_RivalEntrance1:

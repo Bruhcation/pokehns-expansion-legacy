@@ -190,13 +190,11 @@ TohjoFalls_Movement_GiovanniLeave:
 
 TohjoFalls_GiovanniRoom_Text_Radio:
 	.string "RADIO: ... ...\n"
-	.string "Ahem, we are TEAM ROCKET!\l"
-	.string "After three years of preparation,\l"
-	.string "we have risen again from the ashes!\l"
-	.string "GIOVANNI! Can you hear us?\l"
-	.string "We did it!\l"
-	.string "Where is our boss?\l"
-	.string "Is he listening?$"
+	.string "Ahem, it seems like the\n"
+	.string "LAKE OF RAGE is undergoing\l"
+	.string "swarm's of GYARADOS.\l"
+	.string "Whether is not this seems\l"
+	.string "natural will be invastigated...$"
 
 TohjoFalls_GiovanniRoom_Text_GiovanniIntro:
 	.string "GIOVANNI: ...\p"
@@ -210,24 +208,28 @@ TohjoFalls_GiovanniRoom_Text_GiovanniIntro:
 	.string "in front of me three years ago...\p"
 	.string "You have the same eyes...\p"
 	.string "...\p"
-	.string "I'm on my way to GOLDENROD CITY\n"
-	.string "to answer the call and join my team.\l"
+	.string "I'm on my way to the LAKE OF RAGE\n"
+	.string "to investigate what is going on\l"
+	.string "there\p$"
 	.string "Are you going to get in my way?$"
 
 TohjoFalls_GiovanniRoom_Text_GiovanniBeforeBattle:
-	.string "My old associates need me...\n"
-	.string "We will not repeat the failure of\l"
-	.string "three years ago!$"
+	.string "I need to know if it's them,\n"
+	.string "I won't let them make the same\l"
+	.string "mistakes!$"
 
 TohjoFalls_GiovanniRoom_Text_GiovanniDefeat:
 	.string "What in the world are you?$"
 
 TohjoFalls_GiovanniRoom_Text_GiovanniAfter:
-	.string "GIOVANNI: How is this possible...?\n"
-	.string "The past three years have been a\l"
-	.string "waste...?\p"
-	.string "How can a kid like you manage to\n"
-	.string "destroy my dream once again?\p"
-	.string "The precious dream of TEAM ROCKET\n"
-	.string "has become little more than an\l"
-	.string "illusion...$"
+	.string "GIOVANNI: How did you even find me?\n"
+	.string "And was as strong enough to\l"
+	.string "beat me?\p"
+	.string "...\p"
+	.string "Well I guess you can help out at\n"
+	.string "the LAKE OF RAGE, north of\l"
+	.string "MAHONAGY TOWN, I fear that\l"
+	.string "TEAM ROCKET may be behind\l"
+	.string "that.\p"
+	.string "Guess I'll see you later.$"
+

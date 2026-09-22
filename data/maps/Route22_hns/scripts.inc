@@ -295,8 +295,8 @@ Route22_Text_Giovanni1:
 	.string "GIOVANNI: One must acknowledge one's\n"
 	.string "defeat before he can move on...\p"
 	.string "I will go solo... for now...\p"
-	.string "So that one day I will form a\n"
-	.string "stronger organization!$"
+	.string "And reconsider my life\n"
+	.string "moving forward.$"
 
 Route22_Text_Silver2:
 	.string "{RIVAL}: What aspect of you was\n"
@@ -312,8 +312,8 @@ Route22_Text_Giovanni2:
 	.string "That's the strength of organization\p"
 	.string "I failed... to make the best use of\n"
 	.string "my subordinates' potential...!\p"
-	.string "But you shall witness one day the\n"
-	.string "revival of me and my TEAM ROCKET!$"
+	.string "And now I shall reflect on\n"
+	.string "my failures.$"
 
 Route22_Text_Silver3:
 	.string "{RIVAL}: I don't understand you!\p"

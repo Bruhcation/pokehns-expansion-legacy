@@ -100,8 +100,17 @@ MahoganyTown_Shop_EventScript_Raid::
 	waitmovement 0
 	removeobject LOCALID_MAHOGANYSHOP_ROCKET
 	playse SE_EXIT
-	setflag FLAG_HIDE_MAHOGANY_TOWN_SHOP_NPCS
+	delay 50
 
+	applymovement LOCALID_MAHOGANYSHOP_GIOVANNI, MahoganyTown_Shop_Movement_GiovanniWalkUp
+	waitmovement 0
+	msgbox MahoganyMart1F_Text_Giovanni, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_MAHOGANYSHOP_GIOVANNI, MahoganyTown_Shop_Movement_GiovanniWalkDown
+	waitmovement 0
+	removeobject LOCALID_MAHOGANYSHOP_GIOVANNI
+	playse SE_EXIT
+	setflag FLAG_HIDE_MAHOGANY_TOWN_SHOP_NPCS
 
 	setvar VAR_MAHOGANY_TOWN_STATE, 5
 	release
@@ -160,6 +169,24 @@ MahoganyTown_Shop_Movement_DragoniteGotoBox:
 	walk_right
 	step_end
 
+MahoganyTown_Shop_Movement_GiovanniWalkUp:
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_left
+	step_end
+
+
+MahoganyTown_Shop_Movement_GiovanniWalkDown:
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	step_end
+
+
 MahoganyTown_Shop_Movement_LanceGotoBox:
 	walk_up
 	walk_up
@@ -176,6 +203,11 @@ MahoganyTown_Shop_Movement_PlayerGotoBox:
 	walk_up
 	walk_up
 	step_end
+
+MahoganyMart1F_Text_Giovanni::
+	.string "I have to leave...\n"
+	.string "You two can handle this,\l"
+	.string "Right?$"
 
 MahoganyTown_Shop_EventScript_Granny::
 	lock
@@ -226,6 +258,8 @@ MahoganyTown_Pokemart:
 	.2byte ITEM_NONE
 	release
 	end
+
+MahoganyMart1F_Text_Giovanni::
 
 MahoganyTown_Shop_Text_Granny:
 	.string "Please come back another time.\n"

@@ -9370,7 +9370,7 @@ Pic: Champion Lance Hns
 Gender: Male
 Music: Hg Champion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer / Prediction
 Items: Full Restore / Full Restore
 Mugshot: Blue
 
@@ -9431,7 +9431,7 @@ Pic: Champion Lance Hns
 Gender: Male
 Music: Hg Champion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer / Prediction
 Items: Full Restore / Full Restore
 Mugshot: Blue
 
@@ -9499,7 +9499,7 @@ Pic: Champion Lance Hns
 Gender: Male
 Music: Hg Champion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer / Prediction
 Items: Full Restore / Full Restore
 Mugshot: Blue
 
@@ -10536,7 +10536,7 @@ EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
 - Swords Dance
 
 Victreebel @ Scope Lens
-Level: 64
+Level: 68
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
 - Sludge Bomb
@@ -10545,7 +10545,7 @@ EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
 - Growth
 
 Houndoom @ Choice Specs
-Level: 64
+Level: 68
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
 - Fire Blast
@@ -10760,45 +10760,38 @@ AI: Basic Trainer
 Mugshot: Dark Red
 Items: Full Restore / Full Restore
 
-Muk
-Level: 36
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Poison Jab
-- Mud Bomb
-- Acid Armor
-- Minimize
-
-Nidoqueen
-Level: 37
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Cross Poison
-- Magnitude
-- Thunder Punch
-- Body Slam
-
-Weezing
-Level: 36
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sludge Bomb
-- Self Destruct
-- Haze
-- Gyro Ball
-
-Nidoking
-Level: 37
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Cross Poison
-- Double Kick
-- Ice Punch
-- Thrash
-
-Rhydon
+Forretress
 Level: 38
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Drill Run
-- Fissure
+- Pin Missile
+- Explosion
+- Spikes
+- Spike Cannon
+
+Pupitar
+Level: 38
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
+- Earthquake
+- Bite
+- Thrash
+
+Magcargo
+Level: 39
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Smog
+- Flamethrower
+- Power Gem
+- Curse
+
+Cloyster
+Level: 38
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Ice Beam
+- Clamp
+- Spike Cannon
+- Surf
+
 
 === TRAINER_ARCHER_HNS ===
 Name: ARCHER
@@ -10999,37 +10992,37 @@ AI: Basic Trainer
 Mugshot: Dark Red
 Items: Full Restore / Full Restore
 
-Pineco
+Grimer
 Level: 30
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Pin Missile
-- Explosion
-- Spikes
-- Spike Cannon
+- Poison Jab
+- Mud Bomb
+- Acid Armor
+- Minimize
 
-Larvitar
+Murkrow
 Level: 30
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rock Slide
-- Screech
-- Bite
+- Faint Attack
+- Wing Attack
+- Steel Wing
+- Haze
+
+Nidoking
+Level: 31
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Cross Poison
+- Double Kick
+- Ice Punch
 - Thrash
 
-Magcargo
-Level: 30
+Rhydon
+Level: 31
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Smog
-- Flamethrower
-- Ancient Power
-- Curse
-
-Cloyster
-Level: 30
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Ice Beam
-- Clamp
-- Spike Cannon
-- Surf
+- Magnitude
+- Drill Run
+- Fissure
+- Rock Blast
 
 === TRAINER_PETREL_2_HNS ===
 Name: PETREL
@@ -11042,37 +11035,45 @@ AI: Basic Trainer
 Mugshot: Dark Red
 Items: Full Restore / Full Restore
 
-Forretress
-Level: 38
+Muk
+Level: 36
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Pin Missile
-- Explosion
-- Spikes
-- Spike Cannon
+- Poison Jab
+- Mud Bomb
+- Acid Armor
+- Minimize
 
-Pupitar
-Level: 38
+Nidoqueen
+Level: 37
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rock Slide
-- Screech
-- Bite
+- Cross Poison
+- Magnitude
+- Thunder Punch
+- Body Slam
+
+Weezing
+Level: 36
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sludge Bomb
+- Self Destruct
+- Haze
+- Gyro Ball
+
+Nidoking
+Level: 37
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Cross Poison
+- Double Kick
+- Ice Punch
 - Thrash
 
-Magcargo
-Level: 39
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Smog
-- Flamethrower
-- Power Gem
-- Curse
-
-Cloyster
+Rhydon
 Level: 38
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Ice Beam
-- Clamp
-- Spike Cannon
-- Surf
+- Earthquake
+- Drill Run
+- Fissure
+- Rock Slide
 
 === TRAINER_ARIANA_1_HNS ===
 Name: ARIANA
@@ -13820,8 +13821,6 @@ Jolly Nature
 - Shadow Claw  
 - Yawn  
 
-
-
 === TRAINER_AKALA_SWIMMER_2_HNS ===
 Name: PORTIA
 Class: Swimmer F Hns
@@ -15909,7 +15908,7 @@ Rhyperior @ Focus Sash
 Ability: Solid Rock
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe   
-Level: 70 
+Level: 78 
 - Rock Climb  
 - Earthquake  
 - Toxic  
@@ -15919,7 +15918,7 @@ Pidgeot @ Focus Sash
 Ability: Gale Wings 
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe 
-Level: 70  
+Level: 78  
 - Mega Kick  
 - Extreme Speed  
 - Sky Attack  
@@ -15929,7 +15928,7 @@ Machamp @ Leftovers
 Ability: No Guard  
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-Level: 70  
+Level: 78  
 - Dynamic Punch  
 - Dual Chop  
 - Stone Edge  
@@ -15939,7 +15938,7 @@ Marowak-Alola @ Thick Club
 Ability: Rock Head
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
-Level: 71  
+Level: 78  
 - Shadow Bone  
 - Flame Charge  
 - Flare Blitz 
@@ -15948,7 +15947,7 @@ Level: 71
 Tyranitar @ Assault Vest 
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe    
-Level: 70  
+Level: 78  
 - Rock Climb  
 - Crunch  
 - Earthquake 
@@ -15958,7 +15957,7 @@ Blastoise @ White Herb
 Ability: Torrent 
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe  
-Level: 73   
+Level: 78   
 - Scald  
 - Dark Pulse  
 - Ice Beam  
@@ -16282,7 +16281,7 @@ Level: 77
 - Crunch  
 - Bounce 
 
-Charizard  
+Charizard @ Focus Sash
 Ability: Blaze  
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
@@ -16292,15 +16291,14 @@ Level: 78
 - Air Slash  
 - Blast Burn
 
-Noivern @ Silk Scarf  
-Ability: Infiltrator  
+Flygon @ Yache Berry  
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
 Level: 78 
-- Boomburst  
-- Dragon Pulse  
-- Moonlight  
-- Super Fang  
+- Earthquake 
+- Dragon Claw 
+- Dragon Dance  
+- Rock Slide 
 
 Aerodactyl @ Choice Band
 Ability: Rock Head  
@@ -16399,3 +16397,280 @@ Tera Type: Fighting
 - Bulk Up  
 - Throat Chop
 
+=== TRAINER_PROFESSOR_OAK_HNS ===
+Name: OAK
+Pic: Oak Hns
+Gender: Male
+Class: Professor Hns
+Music: Hg Champion
+Double Battle: No
+AI: Smart Trainer / Prediction
+Items: Full Restore / Full Restore
+Mugshot: Green
+
+Tauros @ Sitrus Berry
+Level: 85  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+Jolly Nature
+- Zen Headbutt
+- Body Slam  
+- Rock Climb  
+- Earthquake
+
+Annihilape @ Leftovers
+Ability: Defiant
+Level: 87  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 252 SpD / 0 Spe
+Adamant Nature
+- Rage Fist
+- Drain Punch  
+- Bulk Up  
+- Taunt
+
+Articuno @ Heavy Duty Boots
+Level: 88
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 248 HP / 8 Def / 252 SpD
+Calm Nature
+- Roost
+- Freeze-Dry
+- U-turn
+- Haze
+
+Zapdos @ Rocky Helmet
+Ability: Static
+Level: 88
+EVs: 4 Def / 252 SpA / 252 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Timid Nature
+- Hurricane
+- Volt Switch
+- Heat Wave
+- Roost
+
+Moltres @ Focus Sash
+Ability: Flame Body
+Level: 88
+EVs: 4 HP / 252 SpA / 252 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Modest Nature
+- Scorching Sands
+- Fire Blast
+- U-turn
+- Razor Wind
+
+Nidoking @ Life Orb
+Level: 90  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
+Ability: Sheer Force
+Modest Nature
+- Earth Power
+- Sludge Wave  
+- Ice Beam  
+- Substitute
+
+=== TRAINER_SILVER_CYNDAQUIL_POSTOBC_HNS ===
+Name: {B_RIVAL_NAME}
+Class: Rival Hns
+Pic: Silver Hns
+Gender: Male
+Music: Silver
+Double Battle: No
+AI: Smart Trainer / Prediction
+Mugshot: Dark Red
+Items: Full Restore / Full Restore
+
+Crobat @ Focus Sash
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Cross Poison
+- Sky Attack
+- U Turn
+- Toxic
+
+Annihilape @ Leftovers
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Drain Punch
+- Rage Fist
+- Rock Slide
+- Earthquake
+
+Swampert @ Assault Vest
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Ice Punch
+- Liquidation
+- Rock Climb
+
+Sceptile 
+Level: 78
+Ability: Unburden
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Earthquake
+- Leaf Blade
+- Rock Slide
+- Swords Dance
+
+Typhlosion @ Choice Scarf
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
+- Eruption
+- Earth Power
+- Shadow Ball
+- Thunderbolt
+
+Tyranitar @ Lum Berry
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Earthquake
+- Stone Edge
+- Dragon Dance
+
+=== TRAINER_SILVER_CHIKORITA_POSTOBC_HNS ===
+Name: {B_RIVAL_NAME}
+Class: Rival Hns
+Pic: Silver Hns
+Gender: Male
+Music: Silver
+Double Battle: No
+AI: Smart Trainer / Prediction
+Mugshot: Dark Red
+Items: Full Restore / Full Restore
+
+Crobat @ Focus Sash
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Cross Poison
+- Sky Attack
+- U Turn
+- Toxic
+
+Ursaluna-Bloodmoon @ Leftovers
+Ability: Mind's Eye
+EVs: 4 Def / 252 SpA / 252 Spe
+Level: 78  
+Modest Nature
+- Calm Mind
+- Blood Moon
+- Hyper Voice
+- Earth Power
+
+Swampert @ Assault Vest
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Ice Punch
+- Liquidation
+- Rock Climb
+
+Blaziken @ Life Orb
+Ability: Speed Boost
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 4 Def / 252 Spe
+Level: 78
+Adamant Nature
+- Swords Dance
+- Close Combat
+- Flare Blitz
+- Protect
+
+Meganium @ Leftovers
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Power Gem
+- Giga Drain
+- Synthesis
+- Calm Mind
+
+Tyranitar @ Lum Berry
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Earthquake
+- Stone Edge
+- Dragon Dance
+
+=== TRAINER_SILVER_TOTODILE_POSTOBC_HNS ===
+Name: {B_RIVAL_NAME}
+Class: Rival Hns
+Pic: Silver Hns
+Gender: Male
+Music: Silver
+Double Battle: No
+AI: Smart Trainer / Prediction
+Mugshot: Dark Red
+Items: Full Restore / Full Restore
+
+Crobat @ Focus Sash
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Cross Poison
+- Sky Attack
+- U Turn
+- Toxic
+
+Weavile @ Focus Sash
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Icicle Crash
+- Knock Off
+- Low Kick
+- Swords Dance
+
+Sceptile 
+Level: 78
+Ability: Unburden
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Earthquake
+- Leaf Blade
+- Rock Slide
+- Swords Dance
+
+Blaziken @ Life Orb
+Ability: Speed Boost
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 4 Def / 252 Spe
+Level: 78
+Adamant Nature
+- Swords Dance
+- Close Combat
+- Flare Blitz
+- Protect
+
+Feraligatr @ Life Orb
+Level: 78
+Ability: Sheer Force
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+- Ice Punch
+- Dragon Dance
+- Liquidation
+- Earthquake
+
+Tyranitar @ Lum Berry
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Earthquake
+- Stone Edge
+- Dragon Dance

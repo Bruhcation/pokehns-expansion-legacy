@@ -51,9 +51,34 @@ PalletTown_Lab_EventScript_Oak9Badges::
 
 PalletTown_Lab_EventScript_OakDex::
 	msgbox PalletTown_Lab_Text_OakLabDexCheck, MSGBOX_DEFAULT
+	goto_if_ge VAR_SINJOH_STORYLINE, 13, PalletTown_Lab_EventScript_OakBattle
 	closemessage
 	release
 	end
+
+PalletTown_Lab_EventScript_OakBattle:
+	msgbox PalletTown_Lab_Text_OakBattle, MSGBOX_YESNO
+	compare VAR_RESULT, NO
+	goto_if_eq PalletTown_Lab_EventScript_OakBattleNo
+	trainerbattle_no_intro TRAINER_PROFESSOR_OAK_HNS, PalletTown_Lab_Text_OakWon
+	msgbox PalletTown_Lab_Text_YourGreat
+	release
+	end
+
+PalletTown_Lab_Text_YourGreat:
+	.string "You are possibly the greatest\n"
+	.string "trainer in the KANTO/JOTHO!$"
+
+PalletTown_Lab_EventScript_OakBattleNo:
+	msgbox PalletTown_Lab_Text_BattleNo
+	release
+	end
+
+PalletTown_Lab_Text_BattleNo:
+	.string "Not Ready Yet?$"
+
+PalletTown_Lab_Text_OakWon:
+	.string "Your truly the best!$"
 
 PalletTown_Lab_EventScript_Assistant1::
 	msgbox PalletTown_Lab_Text_OaksAssistant1, MSGBOX_NPC
@@ -154,3 +179,15 @@ PalletTown_Lab_Text_OaksLabPC:
 	.string "getting quite a reputation.\p"
 	.string "I'm delighted to hear that.\p"
 	.string "ELM in NEW BARK TOWN 8-)$"
+
+PalletTown_Lab_Text_OakBattle:
+	.string "So I heard you met Arceus in\n"
+	.string "New Sinjoh, It must be great\l"
+	.string "holding such power in your hands!\p"
+	.string "So I was wondering, if we can have\n"
+	.string "a battle?\l"
+	.string "I may be a bit rusty, but I'm\l"
+	.string "still in top shape to battle!\l"
+	.string "and I also have some rare pokemon\l"
+	.string "as well!$"
+

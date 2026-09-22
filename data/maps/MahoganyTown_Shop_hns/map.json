@@ -12,7 +12,7 @@
   "allow_running": false,
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": null,
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_OLD_WOMAN_HNS",
@@ -28,6 +28,7 @@
       "flag": "0"
     },
     {
+      "local_id": "LOCALID_MAHOGANYSHOP_ROCKET",
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_HNS",
       "x": 6,
       "y": 8,
@@ -38,10 +39,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "FLAG_HIDE_MAHOGANY_TOWN_SHOP_NPCS",
-      "local_id": "LOCALID_MAHOGANYSHOP_ROCKET"
+      "flag": "FLAG_HIDE_MAHOGANY_TOWN_SHOP_NPCS"
     },
     {
+      "local_id": "LOCALID_MAHOGANYSHOP_LANCE",
       "graphics_id": "OBJ_EVENT_GFX_LANCE_HNS",
       "x": 3,
       "y": 8,
@@ -52,10 +53,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "FLAG_HIDE_MAHOGANY_TOWN_SHOP_NPCS",
-      "local_id": "LOCALID_MAHOGANYSHOP_LANCE"
+      "flag": "FLAG_HIDE_MAHOGANY_TOWN_SHOP_NPCS"
     },
     {
+      "local_id": "LOCALID_MAHOGANYSHOP_DRAGONITE",
       "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_DRAGONITE",
       "x": 4,
       "y": 8,
@@ -66,8 +67,21 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "FLAG_HIDE_MAHOGANY_TOWN_SHOP_NPCS",
-      "local_id": "LOCALID_MAHOGANYSHOP_DRAGONITE"
+      "flag": "FLAG_HIDE_MAHOGANY_TOWN_SHOP_NPCS"
+    },
+    {
+      "local_id": "LOCALID_MAHOGANYSHOP_GIOVANNI",
+      "graphics_id": "OBJ_EVENT_GFX_GIOVANNI_HNS",
+      "x": 6,
+      "y": 10,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_MAHOGANY_TOWN_SHOP_NPCS"
     }
   ],
   "warp_events": [
