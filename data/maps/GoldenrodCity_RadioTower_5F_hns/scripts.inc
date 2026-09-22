@@ -263,7 +263,7 @@ GoldenrodCity_RadioTower_5F_Text_Archer2::
     .string "Was I a mere puppet?\l"
     .string "Chasing a dream you never shared?$"
 
-GoldenrodCity_RadioTower_5F_Text_Archer2::
+GoldenrodCity_RadioTower_5F_Text_Archer3::
     .string "But... but I can't just let go.\n"
     .string "Not after everything.\l"
     .string "Do you expect me to just walk away,\l"
@@ -535,11 +535,19 @@ GoldenrodCity_RadioTower_5F_Text_RocketBossBeaten:
 
 GoldenrodCity_RadioTower_5F_Text_RocketBossAfter:
 	.string "How could this be?\p"
-	.string "Our dreams have come to naught.\p"
-	.string "I wasn't up to the task after all.\p"
-	.string "Like GIOVANNI did before me, I will\n"
-	.string "disband TEAM ROCKET here today.\p"
-	.string "Farewell.$"
+	.string "TEAM ROCKET was destined to rise\n"
+    .string "again...\p"
+    .string "For GIOVANNI, for our legacy.\n"
+    .string "We cannot fall now!\l"
+    .string "You may have won this battle,\l"
+    .string "but the war?\l"
+    .string "It's far from over.\l"
+    .string "You'll see.\p"
+    .string "Our ambition, our dream will not\n"
+    .string "fade!\l"
+    .string "The world will fear TEAM ROCKET\l"
+    .string "once again!\l"
+    .string "This is only a setback!$"
 
 GoldenrodCity_RadioTower_5F_Text_DirectorThanks:
 	.string "DIRECTOR: {PLAYER}, thank you!\p"

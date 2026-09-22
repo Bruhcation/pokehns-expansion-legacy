@@ -16474,6 +16474,25 @@ const struct ItemInfo gItemsInfo[] =
         .iconPic = gItemIcon_AzureFlute,
         .iconPalette = gItemIconPalette_AzureFlute,
     },
+
+    [ITEM_BRICK_PIECE] =
+    {
+        .name = ITEM_NAME("BRICK PIECE"),
+        .price = 10000,
+        .description = COMPOUND_STRING(
+            "A sturdy piece of\n"
+            "brick from an old\n"
+            "building."),        
+        .pocket = POCKET_ITEMS,
+        .sortType = ITEM_TYPE_EVOLUTION_STONE,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+        .effect = gItemEffect_EvoItem,
+        .flingPower = 30,
+        .iconPic = gItemIcon_BrickPiece,
+        .iconPalette = gItemIconPalette_BrickPiece,
+    },
+
 };
 
 #undef ITEM_NAME

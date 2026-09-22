@@ -18,6 +18,9 @@ MtMoon_Shop_EventScript_Clerk::
 	.align 2
 MtMoon_Shop_Pokemart:
 	.2byte ITEM_MOON_STONE
+	.2byte ITEM_PRISM_SCALE
+	.2byte ITEM_DEEP_SEA_TOOTH
+	.2byte ITEM_DEEP_SEA_SCALE
 	.2byte ITEM_POKE_DOLL
 	.2byte ITEM_FRESH_WATER
 	.2byte ITEM_SODA_POP

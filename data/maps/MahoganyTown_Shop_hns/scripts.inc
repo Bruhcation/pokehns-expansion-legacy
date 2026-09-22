@@ -255,11 +255,10 @@ MahoganyTown_Pokemart:
 	.2byte ITEM_SHINY_STONE
 	.2byte ITEM_BLACK_AUGURITE
 	.2byte ITEM_PEAT_BLOCK
+	.2byte ITEM_BRICK_PIECE
 	.2byte ITEM_NONE
 	release
 	end
-
-MahoganyMart1F_Text_Giovanni::
 
 MahoganyTown_Shop_Text_Granny:
 	.string "Please come back another time.\n"

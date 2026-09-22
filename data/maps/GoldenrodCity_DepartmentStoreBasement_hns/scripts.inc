@@ -126,7 +126,7 @@ GoldenrodCity_DepartmentStoreBasement_EventScript_Item_Ether::
 	end
 
 GoldenrodCity_DepartmentStoreBasement_EventScript_Item_UltraBall::
-	finditem ITEM_ULTRA_BALL
+	finditem ITEM_BRICK_PIECE
 	end
 
 GoldenrodCity_DepartmentStoreBasement_EventScript_Item_ExpShare::

@@ -247,7 +247,7 @@
       "flag": "FLAG_HIDE_LAKE_PRYCE"
     },
     {
-      "local_id": "LOCALID_GIOVANNI",
+      "local_id": "LOCALID_LAKEOFRAGE_GIOVANNI",
       "graphics_id": "OBJ_EVENT_GFX_GIOVANNI_HNS",
       "x": 28,
       "y": 37,

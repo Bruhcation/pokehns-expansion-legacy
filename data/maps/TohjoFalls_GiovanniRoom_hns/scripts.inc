@@ -189,10 +189,10 @@ TohjoFalls_Movement_GiovanniLeave:
 	step_end
 
 TohjoFalls_GiovanniRoom_Text_Radio:
-	.string "RADIO: ... ...\n"
+	.string "RADIO: ... ...\p"
 	.string "Ahem, it seems like the\n"
 	.string "LAKE OF RAGE is undergoing\l"
-	.string "swarm's of GYARADOS.\l"
+	.string "swarm's of GYARADOS.\p"
 	.string "Whether is not this seems\l"
 	.string "natural will be invastigated...$"
 
@@ -210,7 +210,7 @@ TohjoFalls_GiovanniRoom_Text_GiovanniIntro:
 	.string "...\p"
 	.string "I'm on my way to the LAKE OF RAGE\n"
 	.string "to investigate what is going on\l"
-	.string "there\p$"
+	.string "there\p"
 	.string "Are you going to get in my way?$"
 
 TohjoFalls_GiovanniRoom_Text_GiovanniBeforeBattle:
@@ -222,8 +222,8 @@ TohjoFalls_GiovanniRoom_Text_GiovanniDefeat:
 	.string "What in the world are you?$"
 
 TohjoFalls_GiovanniRoom_Text_GiovanniAfter:
-	.string "GIOVANNI: How did you even find me?\n"
-	.string "And was as strong enough to\l"
+	.string "GIOVANNI: How did you even find me?\p"
+	.string "And was as strong enough to\n"
 	.string "beat me?\p"
 	.string "...\p"
 	.string "Well I guess you can help out at\n"

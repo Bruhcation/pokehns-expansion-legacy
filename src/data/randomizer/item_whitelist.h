@@ -269,6 +269,7 @@ static const u16 sRandomizerItemWhitelist[] =
     ITEM_FLOWER_SWEET,
     ITEM_STAR_SWEET,
     ITEM_RIBBON_SWEET,
+    ITEM_BRICK_PIECE,
     ITEM_EVERSTONE,
     // Nectars
     ITEM_RED_NECTAR,

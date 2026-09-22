@@ -631,6 +631,9 @@ const u16 gItemIconPalette_MasterpieceTeacup[] = INCBIN_U16("graphics/items/icon
 const u32 gItemIcon_MetalAlloy[] = INCBIN_U32("graphics/items/icons/metal_alloy.4bpp.smol");
 const u16 gItemIconPalette_MetalAlloy[] = INCBIN_U16("graphics/items/icon_palettes/metal_alloy.gbapal");
 
+const u32 gItemIcon_BrickPiece[] = INCBIN_U32("graphics/items/icons/brick_piece.4bpp.smol");
+const u16 gItemIconPalette_BrickPiece[] = INCBIN_U16("graphics/items/icon_palettes/brick_piece.gbapal");
+
 // Nectars
 
 const u32 gItemIcon_Nectar[] = INCBIN_U32("graphics/items/icons/nectar.4bpp.smol");
