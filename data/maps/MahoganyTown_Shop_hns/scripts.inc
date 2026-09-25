@@ -170,11 +170,11 @@ MahoganyTown_Shop_Movement_DragoniteGotoBox:
 	step_end
 
 MahoganyTown_Shop_Movement_GiovanniWalkUp:
-	walk_up
-	walk_up
-	walk_up
-	walk_up
 	walk_left
+	walk_up
+	walk_up
+	walk_up
+	walk_up
 	step_end
 
 

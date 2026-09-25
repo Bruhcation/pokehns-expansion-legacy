@@ -19,6 +19,8 @@ Alola_Pokemart_Pokemart:
 	.2byte ITEM_FRIEND_BALL
 	.2byte ITEM_QUICK_BALL
 	.2byte ITEM_NET_BALL
+	.2byte ITEM_DUSK_BALL
+	.2byte ITEM_MAX_REPEL
 	.2byte ITEM_WAVE_INCENSE
 	.2byte ITEM_LEMONADE
 	.2byte ITEM_NONE

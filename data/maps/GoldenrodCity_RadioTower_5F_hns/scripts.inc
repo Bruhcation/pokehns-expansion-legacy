@@ -150,7 +150,7 @@ GoldenrodCity_RadioTower_5F_EventScript_Houndoom::
 	end
 
 GoldenrodCity_RadioTower_5F_Text_Houndoom::
-	.string "Hound... Doom!!!"
+	.string "Hound... Doom!!!$"
 
 GoldenrodRaidoTower4_EventScript_ARIANA::
 	trainerbattle_single TRAINER_ARIANA_2_HNS GoldenrodCity_RadioTower_5F_Text_ExecutiveF1Seen, GoldenrodCity_RadioTower_5F_Text_ExecutiveF1Beaten
@@ -164,17 +164,21 @@ GoldenrodCity_RadioTower_5F_EventScript_Archer::
 	trainerbattle_no_intro TRAINER_ARCHER_HNS, GoldenrodCity_RadioTower_5F_Text_RocketBossBeaten
 	removeobject LOCALID_RADIOTOWER5F_HOUNDOOM
 	msgbox GoldenrodCity_RadioTower_5F_Text_RocketBossAfter, MSGBOX_DEFAULT
+	closemessage
 	addobject LOCALID_RADIOTOWER5F_GIOVANNI
 	applymovement LOCALID_RADIOTOWER5F_GIOVANNI, GoldenrodCity_RadioTower_5F_Movement_GiovanniWalkDown
 	waitmovement 0
-	applymovement LOCALID_GOLDENROD_ARCHER, Common_Movement_ExclamationMark
-	applymovement LOCALID_GOLDENROD_ARIANA, Common_Movement_ExclamationMark
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_ExclamationMark
+	applymovement LOCALID_GOLDENROD_ARCHER, GoldenrodCity_RadioTower_5F_Movement_MarkFaceRight
+	applymovement LOCALID_GOLDENROD_ARIANA, GoldenrodCity_RadioTower_5F_Movement_MarkFaceRight
+	applymovement OBJ_EVENT_ID_PLAYER, GoldenrodCity_RadioTower_5F_Movement_MarkFaceRight
 	playse SE_PIN
 	waitse
 	msgbox GoldenrodCity_RadioTower_5F_Text_QuestionMark, MSGBOX_DEFAULT
 	closemessage
 	waitmessage
+	fadescreen FADE_TO_BLACK
+	delay 60
+	fadescreen FADE_FROM_BLACK
 	msgbox GoldenrodCity_RadioTower_5F_Text_Giovanni, MSGBOX_DEFAULT
 	closemessage
 	waitmessage
@@ -226,6 +230,11 @@ GoldenrodCity_RadioTower_5F_EventScript_Archer::
 	goto_if_eq VAR_FACING, DIR_NORTH, GoldenrodCity_RadioTower_5F_EventScript_WingBot
 	release
 	end
+
+GoldenrodCity_RadioTower_5F_Movement_MarkFaceRight::
+	emote_exclamation_mark
+	face_right
+	step_end
 
 GoldenrodCity_RadioTower_5F_Movement_ArcherWalkDown::
 	walk_down
@@ -336,6 +345,8 @@ GoldenrodCity_RadioTower_5F_Text_Giovanni3:
     .string "TEAM ROCKET?$"
 
 GoldenrodCity_RadioTower_5F_Movement_GiovanniWalkDown::
+	walk_down
+	walk_down
 	walk_down
 	walk_down
 	walk_down
@@ -563,7 +574,7 @@ GoldenrodCity_RadioTower_5F_Text_DirectorThanks:
     .string "fade!\p"
     .string "The world will fear TEAM ROCKET\n"
     .string "once again!\p"
-    .string "This is only a setback!\p"
+    .string "This is only a setback!$"
 
 GoldenrodCity_RadioTower_5F_Text_DirectorClearWingExplanation:
 	.string "There used to be a tower right here\n"

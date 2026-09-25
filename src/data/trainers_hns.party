@@ -7805,6 +7805,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Magneton
 Level: 35
+Ability: Sturdy
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Thunderbolt
 - Flash Cannon
@@ -7822,6 +7823,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Steelix @ Quick Claw
 Level: 36
+Ability: Sturdy
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Crunch
 - Earthquake
@@ -7900,6 +7902,7 @@ Items: Full Restore / Full Restore
 
 Skarmory
 Level: 35
+Ability: Sturdy
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Spikes
 - Drill Peck
@@ -7917,6 +7920,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Magneton
 Level: 35
+Ability: Sturdy
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Thunderbolt
 - Flash Cannon
@@ -7953,6 +7957,7 @@ Items: Full Restore / Full Restore
 
 Skarmory
 Level: 37
+Ability: Sturdy
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Spikes
 - Drill Peck
@@ -7969,6 +7974,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Magnezone
 Level: 37
+Ability: Sturdy
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Thunderbolt
 - Tri Attack
@@ -7986,6 +7992,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Steelix @ Quick Claw
 Level: 38
+Ability: Sturdy
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Crunch
 - Earthquake
@@ -10791,6 +10798,10 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Clamp
 - Spike Cannon
 - Surf
+
+Golbat
+Level: 39
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 
 === TRAINER_ARCHER_HNS ===
