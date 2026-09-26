@@ -4006,7 +4006,7 @@ BattleScript_FaintBattler::
 	tryillusionoff BS_FAINTED
 	undodynamax BS_FAINTED
 	playfaintcry BS_FAINTED
-	pause B_WAIT_TIME_LONG
+	pause 0x20
 	dofaintanimation BS_FAINTED
 	copybyte sBATTLER, gBattlerFainted @ for message
 	printstring STRINGID_BATTLERFAINTED
