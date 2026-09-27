@@ -288,7 +288,7 @@ DragonsDen_Cavern_EventScript_SliverTyranitar::
 	end
 
 DragonsDen_Cavern_EventScript_SliverBattle::
-	lock
+	lockall
 	faceplayer
 	removeobject LOCALID_DRAGONSDEN_LANCE
 	removeobject LOCALID_DRAGONSDEN4_CLAIR
@@ -296,38 +296,42 @@ DragonsDen_Cavern_EventScript_SliverBattle::
 	closemessage
 	playse SE_PIN
 	waitse
-	applymovement LOCALID_DRAGONSDEN_SILVER, DragonsDen_Cavern_Movement_MarkUp
-	applymovement OBJ_EVENT_ID_PLAYER, DragonsDen_Cavern_Movement_MarkUp
+	applymovement2 LOCALID_DRAGONSDEN_SILVER, DragonsDen_Cavern_Movement_MarkUp
+	applymovement2 OBJ_EVENT_ID_PLAYER, DragonsDen_Cavern_Movement_MarkUp
+	applymovement2 LOCALID_DRAGONSDEN_TYRANITAR, DragonsDen_Cavern_Movement_MarkUp
+	applymovement2 OBJ_EVENT_ID_FOLLOWER, DragonsDen_Cavern_Movement_MarkUp
 	waitmovement 0
 	msgbox DragonsDen_Cavern_Text_SeeSomeone
 	closemessage
-	applymovement LOCALID_DRAGONSDEN_TYRANITAR, DragonsDen_Cavern_Movement_TtarMove
-	applymovement OBJ_EVENT_ID_PLAYER, DragonsDen_Cavern_Movement_PlayerMove
+	applymovement2 LOCALID_DRAGONSDEN_TYRANITAR, DragonsDen_Cavern_Movement_TtarMove
+	applymovement2 OBJ_EVENT_ID_PLAYER, DragonsDen_Cavern_Movement_PlayerMove
+	applymovement2 OBJ_EVENT_ID_FOLLOWER, DragonsDen_Cavern_Movement_FollowerMove
 	waitmovement 0
+	turnobject OBJ_EVENT_ID_FOLLOWER, DIR_NORTH
 	msgbox DragonsDen_Cavern_Text_WhatLance
 	closemessage
 	clearflag FLAG_HIDE_DRAGONS_DEN_CAVERN_LANCE
 	clearflag FLAG_HIDE_DRAGONS_DEN_CAVERN_CLAIR
 	addobject LOCALID_DRAGONSDEN_LANCE
 	addobject LOCALID_DRAGONSDEN4_CLAIR
-	applymovement LOCALID_DRAGONSDEN_LANCE, DragonsDen_Cavern_Movement_LanceWalkDown
-	applymovement LOCALID_DRAGONSDEN4_CLAIR, DragonsDen_Cavern_Movement_ClairWalkDown
+	applymovement2 LOCALID_DRAGONSDEN_LANCE, DragonsDen_Cavern_Movement_LanceWalkDown
+	applymovement2 LOCALID_DRAGONSDEN4_CLAIR, DragonsDen_Cavern_Movement_ClairWalkDown
 	waitmovement 0
 	msgbox DragonsDen_Cavern_Text_LanceHere
 	closemessage
-	applymovement LOCALID_DRAGONSDEN4_CLAIR, DragonsDen_Cavern_Movement_ClairDown
+	applymovement2 LOCALID_DRAGONSDEN4_CLAIR, DragonsDen_Cavern_Movement_ClairDown
 	waitmovement 0
 	msgbox DragonsDen_Cavern_Text_ClairHere
 	closemessage
-	applymovement LOCALID_DRAGONSDEN_SILVER, DragonsDen_Cavern_Movement_SilverUp
-	applymovement LOCALID_DRAGONSDEN4_CLAIR, DragonsDen_Cavern_Movement_ClairSlide
+	applymovement2 LOCALID_DRAGONSDEN_SILVER, DragonsDen_Cavern_Movement_SilverUp
+	applymovement2 LOCALID_DRAGONSDEN4_CLAIR, DragonsDen_Cavern_Movement_ClairSlide
 	waitmovement 0
 	playse SE_M_STRENGTH
 	waitse
 	msgbox DragonsDen_Cavern_Text_SilverNo
 	closemessage
-	applymovement LOCALID_DRAGONSDEN_SILVER, DragonsDen_Cavern_Movement_SilverToPlayer
-	applymovement LOCALID_DRAGONSDEN4_CLAIR, DragonsDen_Cavern_Movement_ClairDown
+	applymovement2 LOCALID_DRAGONSDEN_SILVER, DragonsDen_Cavern_Movement_SilverToPlayer
+	applymovement2 LOCALID_DRAGONSDEN4_CLAIR, DragonsDen_Cavern_Movement_ClairDown
 	waitmovement 0
 	msgbox DragonsDen_Cavern_Text_SilverLetFight
 	closemessage
@@ -373,6 +377,9 @@ DragonsDen_Cavern_Text_LanceHere::
     .string "LANCE: Come on.\n"
     .string "A double battle is really not bad.\l"
     .string "{PLAYER}, you'll be on my side!$"
+
+DragonsDen_Cavern_Text_SilverHumph::
+    .string "{RIVAL}: Humph!$"
 
 DragonsDen_Cavern_Text_ClairHere::
     .string "CLAIR: Well then, you over there!\n"
@@ -442,8 +449,8 @@ DragonsDen_Cavern_Text_YouCantDoThat::
 DragonsDen_Cavern_EventScript_PickSilverPartner::
 	lock
 	faceplayer
-	applymovement LOCALID_DRAGONSDEN_SILVER, Common_Movement_FaceUp
-	waitmovement 0
+	applymovement2 LOCALID_DRAGONSDEN_SILVER, Common_Movement_FaceUp
+	waitmovement 0 
 	msgbox DragonsDen_Cavern_Text_LetFightNow
 	closemessage
 	switch VAR_STARTER_MON
@@ -479,17 +486,22 @@ DragonsDen_Cavern_EventScript_SilverMultiResult::
 DragonsDen_Cavern_EventScript_SilverMultiWin::
 	lock
 	faceplayer
+	applymovement2 LOCALID_DRAGONSDEN_SILVER, Common_Movement_FaceUp
+	waitmovement 0 
+	msgbox DragonsDen_Cavern_Text_SilverHumph
+	closemessage
+	waitmessage
 	msgbox DragonsDen_Cavern_Text_LanceLeave
 	closemessage
 	waitmessage
-	applymovement LOCALID_DRAGONSDEN_LANCE, DragonsDen_Cavern_Movement_LanceExit
+	applymovement2 LOCALID_DRAGONSDEN_LANCE, DragonsDen_Cavern_Movement_LanceExit
 	waitmovement 0
 	msgbox DragonsDen_Cavern_Text_ClairLeave
 	closemessage
 	waitmessage
-	applymovement LOCALID_DRAGONSDEN4_CLAIR, DragonsDen_Cavern_Movement_ClairExit
-	applymovement LOCALID_DRAGONSDEN_SILVER, Common_Movement_FaceRight
+	applymovement2 LOCALID_DRAGONSDEN4_CLAIR, DragonsDen_Cavern_Movement_ClairExit
 	waitmovement 0
+	applymovement2 LOCALID_DRAGONSDEN_SILVER, Common_Movement_FaceRight
 	msgbox DragonsDen_Cavern_Text_SilverLeave
 	closemessage
 	waitmessage
@@ -500,7 +512,7 @@ DragonsDen_Cavern_EventScript_SilverMultiWin::
 	removeobject LOCALID_DRAGONSDEN_SILVER
 	removeobject LOCALID_DRAGONSDEN_TYRANITAR
 	fadescreen FADE_FROM_BLACK
-	release
+	releaseall
 	end
 
 DragonsDen_Cavern_Text_Lance3Defeat:
@@ -511,12 +523,21 @@ DragonsDen_Cavern_Text_Clair3Defeat:
 
 DragonsDen_Cavern_Movement_TtarMove::
 	walk_down
+	walk_down
 	walk_left
 	face_up
 	step_end
 
 DragonsDen_Cavern_Movement_PlayerMove::
 	walk_right
+	walk_down
+	face_up
+	step_end
+
+DragonsDen_Cavern_Movement_FollowerMove::
+	walk_down
+	walk_right
+	walk_down
 	walk_down
 	face_up
 	step_end
