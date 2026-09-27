@@ -59,7 +59,7 @@ Adamant Nature
 Level: 30
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 0 HP / 252 Atk / 252 Def / 0 SpA / 6 SpD / 0 Spe
-- Waterfall
+- Surf
 - Flamethrower
 - Bite
 - Fly
@@ -94,28 +94,31 @@ Back Pic: Silver Hns
 AI: Basic Trainer
 
 Meganium @ Miracle Seed
-Level: 60
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Reflect
 - Giga Drain
-- Solar Beam
+- Moonblast
 - Body Slam
 
 Crobat @ Leftovers
-Level: 58
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Toxic
 - Double Team
 - Confuse Ray
 - Wing Attack
 
-Gengar
-Level: 56
+Tyranitar
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Shadow Ball
-- Sludge Bomb
-- Thunderbolt
-- Hypnosis
+EVs: 252 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Earthquake
+- Rock Slide
+- Dragon Dance
 
 === PARTNER_SILVER_TYPHLOSION_HNS ===
 Name: {B_RIVAL_NAME}
@@ -127,28 +130,31 @@ Back Pic: Silver Hns
 AI: Basic Trainer
 
 Typhlosion @ Charcoal
-Level: 60
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Fire Blast
-- Earthquake
+- Earth Power
 - Iron Tail
-- Thunder Punch
+- Thunderbolt
 
 Crobat @ Leftovers
-Level: 58
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Toxic
 - Double Team
 - Confuse Ray
 - Wing Attack
 
-Gengar
-Level: 56
+Tyranitar @ Quick Claw
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Shadow Ball
-- Sludge Bomb
-- Thunderbolt
-- Hypnosis
+EVs: 252 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Earthquake
+- Rock Slide
+- Dragon Dance
 
 === PARTNER_SILVER_FERALIGATR_HNS ===
 Name: {B_RIVAL_NAME}
@@ -160,28 +166,31 @@ Back Pic: Silver Hns
 AI: Basic Trainer
 
 Feraligatr @ Scope Lens
-Level: 60
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Ice Beam
-- Surf
-- Slash
+EVs: 252 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Punch
+- Waterfall
+- Crunch
 - Earthquake
 
 Crobat @ Leftovers
-Level: 58
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Toxic
 - Double Team
 - Confuse Ray
 - Wing Attack
 
-Gengar
-Level: 56
+Tyranitar @ Quick Claw
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Shadow Ball
-- Sludge Bomb
-- Thunderbolt
-- Hypnosis
+EVs: 252 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Earthquake
+- Rock Slide
+- Dragon Dance
 
 === PARTNER_DUMMY ===
 Name:

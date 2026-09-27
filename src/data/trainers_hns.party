@@ -9512,31 +9512,31 @@ Mugshot: Blue
 
 Gyarados @ Quick Claw
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
-Level: 68
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 72
 - Waterfall
 - Earthquake
 - Dragon Dance
-- Dragon Rush
+- Fly
 
-Charizard @ Leftovers
+Aerodactyl @ Leftovers
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
-Level: 68
-- Fire Blast
-- Aerial Ace
-- Steel Wing
-- Thunder Punch
+EVs: 0 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 252 Spe
+Level: 73
+- Rock Slide
+- Sky Attack
+- Protect
+- Double Edge
 
 Dragonite @ Sitrus Berry
 Ability: Multiscale
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
-Level: 70
-- Iron Tail
-- Ice Punch
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 75
+- Extreme Speed
+- Sky Attack
 - Dragon Rush
-- Dragon Dance
+- Protect
 
 === TRAINER_CLAIR_3_HNS ===
 Name: CLAIR
@@ -9545,37 +9545,37 @@ Pic: Leader Clair Hns
 Gender: Male
 Music: Hg Boy 1
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer / Prediction
 Mugshot: Blue
 Items: Full Restore / Full Restore
 
-Dudunsparce @ Quick Claw
+Dudunsparce @ Leftovers
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
-Level: 62
-- Shadow Ball
-- Drill Run
-- Boomburst
+EVs: 252 HP / 252 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 68
+- Protect
+- Roost
 - Hyper Drill
+- Drill Run
+
+Lapras @ Leftovers
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+Level: 69
+- Protect
+- Hydro Pump
+- Freeze Dry
+- Thunderbolt
 
 Kingdra @ Leftovers
+Ability: Sniper
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
-Level: 64
+EVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+Level: 70
 - Agility
 - Hydro Pump
 - Ice Beam
-- Dragon Breath
-
-Dragonite 
-Ability: Multiscale
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
-Level: 66
-- Agility
-- Thunder
 - Dragon Pulse
-- Extreme Speed
 
 === TRAINER_RIVAL_CHIKORITA_1_HNS ===
 Name: ???

@@ -144,7 +144,10 @@ GoldenrodCity_RadioTower_5F_EventScript_Ben::
 GoldenrodCity_RadioTower_5F_EventScript_Houndoom::
 	lock
 	faceplayer
+	waitse
+	playmoncry SPECIES_HOUNDOOM, CRY_MODE_NORMAL
 	msgbox GoldenrodCity_RadioTower_5F_Text_Houndoom, MSGBOX_DEFAULT
+	waitmoncry
 	closemessage
 	release
 	end

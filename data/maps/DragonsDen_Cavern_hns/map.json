@@ -432,19 +432,21 @@
       "flag": "0"
     },
     {
+      "local_id": "LOCALID_DRAGONSDEN_SILVER",
       "graphics_id": "OBJ_EVENT_GFX_SILVER_HNS",
       "x": 26,
-      "y": 40,
+      "y": 43,
       "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "DragonsDen_Cavern_EventScript_SliverBattle",
       "flag": "FLAG_HIDE_DRAGONS_DEN_CAVERN_SILVER"
     },
     {
+      "local_id": "LOCALID_DRAGONSDEN_LANCE",
       "graphics_id": "OBJ_EVENT_GFX_LANCE_HNS",
       "x": 31,
       "y": 34,
@@ -470,6 +472,34 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "DragonsDen_EventScript_ClairRematch",
       "flag": "FLAG_HIDE_DEN_CLAIR"
+    },
+    {
+      "local_id": "LOCALID_DRAGONSDEN_TYRANITAR",
+      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_TYRANITAR",
+      "x": 27,
+      "y": 43,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "DragonsDen_Cavern_EventScript_SliverTyranitar",
+      "flag": "FLAG_HIDE_DRAGONS_DEN_CAVERN_SILVER"
+    },
+    {
+      "local_id": "LOCALID_DRAGONSDEN4_CLAIR",
+      "graphics_id": "OBJ_EVENT_GFX_CLAIR_HNS",
+      "x": 30,
+      "y": 34,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_DRAGONS_DEN_CAVERN_CLAIR"
     }
   ],
   "warp_events": [

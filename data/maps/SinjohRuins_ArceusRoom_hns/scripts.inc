@@ -293,6 +293,7 @@ SinjohRuins_ArceusRoom_EventScript_Arceus::
 	clearflag FLAG_SMART_WILD_AI
 	clearflag FLAG_NO_SHINY
 SinjohRuins_ArceusRoom_EventScript_ArceusPhase2::
+	special HealPlayerParty
 	playmoncry SPECIES_ARCEUS, CRY_MODE_ENCOUNTER
 	msgbox SinjohRuins_ArceusRoom_Text_CryArceus2, MSGBOX_AUTOCLOSE
 	delay 40

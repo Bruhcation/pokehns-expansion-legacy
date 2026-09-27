@@ -57,6 +57,7 @@ MtSilver_SummitDay_EventScript_RedOnDefeat::
 	setflag FLAG_DEFEATED_RED
 	setflag FLAG_END_NUZLOCKE
 	clearflag FLAG_HIDE_MTSILVER_RED
+	clearflag FLAG_HIDE_DRAGONS_DEN_CAVERN_SILVER
 	special GameClear
 	waitstate
 	releaseall
